@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw02/src/vector_sum.cpp
+vector_sum.h
+/mnt/c/Users/lukas/Documents/PDV/hw/hw02/src/vector_sum.h
+numeric
+-
+random
+-
+algorithm
+-
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw02/src/vector_sum.h
+cstddef
+-
+cstdint
+-
+vector
+-
+

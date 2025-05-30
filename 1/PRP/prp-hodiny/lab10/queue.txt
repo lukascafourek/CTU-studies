@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct Queue {
+  int *data;
+  size_t head;
+  size_t tail;
+  size_t size;
+} Queue;
+
+Queue *create_queue(size_t size) {
+  // TODO
+}
+
+void push(Queue *qp, int number) {
+  // TODO
+}
+
+int pop(Queue *qp) {
+  // TODO
+}
+
+void free_queue(Queue *qp) {
+  // TODO
+}
+
+int head(Queue *qp){
+  // TODO
+}
+
+void print_queue(Queue qp) {
+  // TODO
+}
+
+void input_queue(Queue *qp) {
+  // TODO
+}
+
+void test_queue() {
+  Queue* q = create_queue(5);
+  for (int i = 1; i < 3; ++i) {
+    push(q, i * 2);
+    printf("push>%d\n", i*2);
+  }
+  print_queue(*q);
+  for (int i = 1; i < 25; ++i) {
+    printf("pop>%d\n", pop(q));
+  }
+  for (int i = 1; i < 15; ++i) {
+    push(q, i * 3);
+    printf("push>%d\n", i*3);
+  }
+  for (int i = 1; i < 10; ++i) {
+    printf("pop>%d\n", pop(q));
+  }
+  print_queue(*q);
+  for (int i = 1; i < 4; ++i) {
+    push(q, i * 5);
+    printf("push>%d\n", i*5);
+  }
+  for (int i = 1; i < 2; ++i) {
+    printf("pop>%d\n", pop(q));
+  }
+  print_queue(*q);
+  for (int i = 1; i < 2; ++i) {
+    push(q, i * 7);
+    printf("push>%d\n", i*7);
+  }
+  print_queue(*q);
+  free_queue(q);
+}
+
+
+
+int main(int argc, char *argv[]) {
+
+  Queue *queue_p;
+  queue_p = create_queue(5);
+
+  printf("Pop: %d\n", pop(queue_p));
+  printf("Push: 10\n");
+  push(queue_p, 10);
+  printf("Push: 20\n");
+  push(queue_p, 20);
+  printf("Push: 30\n");
+  push(queue_p, 30);
+  printf("Push: 40\n");
+  push(queue_p, 40);
+
+  printf("Head: %d\n", head(queue_p));
+
+  print_queue(*queue_p);
+
+  printf("Pop: %d\n", pop(queue_p));
+  printf("Pop: %d\n", pop(queue_p));
+  printf("Pop: %d\n", pop(queue_p));
+  printf("Pop: %d\n", pop(queue_p));
+  printf("Pop: %d\n", pop(queue_p));
+
+  free_queue(queue_p);
+  return 0;
+}

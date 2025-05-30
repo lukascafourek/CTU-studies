@@ -1,0 +1,589 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.8.6.</p>
+      <p>Project: 
+			lab-library[library]</p>
+      <h2>Metrics</h2>
+      <p>1017 lines of code analyzed,
+	in 51 classes, 
+	in 11 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">NaN</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">33</td>
+            <td align="right">32.45</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>33</b>
+            </td>
+            <td align="right">
+               <b>32.45</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+            </td>
+            <td align="right">33</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>33</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.getAuthor() may expose internal representation by returning BookDTO.author<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 26 26<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.getAuthor()<br/>Field cz.fel.sin.library.dto.BookDTO.author<br/>At BookDTO.java:[line 26]<br/>At BookDTO.java:[line 26]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.getGenre() may expose internal representation by returning BookDTO.genre<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 24 24<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.getGenre()<br/>Field cz.fel.sin.library.dto.BookDTO.genre<br/>At BookDTO.java:[line 24]<br/>At BookDTO.java:[line 24]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.getPublisher() may expose internal representation by returning BookDTO.publisher<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 22 22<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.getPublisher()<br/>Field cz.fel.sin.library.dto.BookDTO.publisher<br/>At BookDTO.java:[line 22]<br/>At BookDTO.java:[line 22]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.request.BookCreate.getAuthors() may expose internal representation by returning BookCreate.authors<br/>
+                  <br/>
+                  <br/>In file BookCreate.java BookCreate.java,
+					
+						line 33 33<br/>In class cz.fel.sin.library.dto.request.BookCreate<br/>In method cz.fel.sin.library.dto.request.BookCreate.getAuthors()<br/>Field cz.fel.sin.library.dto.request.BookCreate.authors<br/>At BookCreate.java:[line 33]<br/>At BookCreate.java:[line 33]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.getAddress() may expose internal representation by returning Author.address<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 29 29<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.getAddress()<br/>Field cz.fel.sin.library.model.Author.address<br/>At Author.java:[line 29]<br/>At Author.java:[line 29]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.getBooks() may expose internal representation by returning Author.books<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 35 35<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.getBooks()<br/>Field cz.fel.sin.library.model.Author.books<br/>At Author.java:[line 35]<br/>At Author.java:[line 35]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.getPublishers() may expose internal representation by returning Author.publishers<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 32 32<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.getPublishers()<br/>Field cz.fel.sin.library.model.Author.publishers<br/>At Author.java:[line 32]<br/>At Author.java:[line 32]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.getAuthor() may expose internal representation by returning Book.author<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 42 42<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.getAuthor()<br/>Field cz.fel.sin.library.model.Book.author<br/>At Book.java:[line 42]<br/>At Book.java:[line 42]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.getGenre() may expose internal representation by returning Book.genre<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 34 34<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.getGenre()<br/>Field cz.fel.sin.library.model.Book.genre<br/>At Book.java:[line 34]<br/>At Book.java:[line 34]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.getPublisher() may expose internal representation by returning Book.publisher<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 30 30<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.getPublisher()<br/>Field cz.fel.sin.library.model.Book.publisher<br/>At Book.java:[line 30]<br/>At Book.java:[line 30]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Genre.getBooks() may expose internal representation by returning Genre.books<br/>
+                  <br/>
+                  <br/>In file Genre.java Genre.java,
+					
+						line 21 21<br/>In class cz.fel.sin.library.model.Genre<br/>In method cz.fel.sin.library.model.Genre.getBooks()<br/>Field cz.fel.sin.library.model.Genre.books<br/>At Genre.java:[line 21]<br/>At Genre.java:[line 21]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Library.getAddress() may expose internal representation by returning Library.address<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 25 25<br/>In class cz.fel.sin.library.model.Library<br/>In method cz.fel.sin.library.model.Library.getAddress()<br/>Field cz.fel.sin.library.model.Library.address<br/>At Library.java:[line 25]<br/>At Library.java:[line 25]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Library.getBooks() may expose internal representation by returning Library.books<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 29 29<br/>In class cz.fel.sin.library.model.Library<br/>In method cz.fel.sin.library.model.Library.getBooks()<br/>Field cz.fel.sin.library.model.Library.books<br/>At Library.java:[line 29]<br/>At Library.java:[line 29]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.getAddress() may expose internal representation by returning Publisher.address<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 23 23<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.getAddress()<br/>Field cz.fel.sin.library.model.Publisher.address<br/>At Publisher.java:[line 23]<br/>At Publisher.java:[line 23]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.getBooks() may expose internal representation by returning Publisher.books<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 26 26<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.getBooks()<br/>Field cz.fel.sin.library.model.Publisher.books<br/>At Publisher.java:[line 26]<br/>At Publisher.java:[line 26]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.getContracts() may expose internal representation by returning Publisher.contracts<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 34 34<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.getContracts()<br/>Field cz.fel.sin.library.model.Publisher.contracts<br/>At Publisher.java:[line 34]<br/>At Publisher.java:[line 34]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>new cz.fel.sin.library.controller.LibraryController(LibraryService) may expose internal representation by storing an externally mutable object into LibraryController.libraryService<br/>
+                  <br/>
+                  <br/>In file LibraryController.java LibraryController.java,
+					
+						line 14 14<br/>In class cz.fel.sin.library.controller.LibraryController<br/>In method new cz.fel.sin.library.controller.LibraryController(LibraryService)<br/>Field cz.fel.sin.library.controller.LibraryController.libraryService<br/>Local variable named libraryService<br/>At LibraryController.java:[line 14]<br/>At LibraryController.java:[line 14]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.setAuthor(List) may expose internal representation by storing an externally mutable object into BookDTO.author<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 11 11<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.setAuthor(List)<br/>Field cz.fel.sin.library.dto.BookDTO.author<br/>Local variable named author<br/>At BookDTO.java:[line 11]<br/>At BookDTO.java:[line 11]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.setGenre(Genre) may expose internal representation by storing an externally mutable object into BookDTO.genre<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 11 11<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.setGenre(Genre)<br/>Field cz.fel.sin.library.dto.BookDTO.genre<br/>Local variable named genre<br/>At BookDTO.java:[line 11]<br/>At BookDTO.java:[line 11]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.BookDTO.setPublisher(Publisher) may expose internal representation by storing an externally mutable object into BookDTO.publisher<br/>
+                  <br/>
+                  <br/>In file BookDTO.java BookDTO.java,
+					
+						line 11 11<br/>In class cz.fel.sin.library.dto.BookDTO<br/>In method cz.fel.sin.library.dto.BookDTO.setPublisher(Publisher)<br/>Field cz.fel.sin.library.dto.BookDTO.publisher<br/>Local variable named publisher<br/>At BookDTO.java:[line 11]<br/>At BookDTO.java:[line 11]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.dto.request.BookCreate.setAuthors(List) may expose internal representation by storing an externally mutable object into BookCreate.authors<br/>
+                  <br/>
+                  <br/>In file BookCreate.java BookCreate.java,
+					
+						line 14 14<br/>In class cz.fel.sin.library.dto.request.BookCreate<br/>In method cz.fel.sin.library.dto.request.BookCreate.setAuthors(List)<br/>Field cz.fel.sin.library.dto.request.BookCreate.authors<br/>Local variable named authors<br/>At BookCreate.java:[line 14]<br/>At BookCreate.java:[line 14]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.setAddress(Address) may expose internal representation by storing an externally mutable object into Author.address<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.setAddress(Address)<br/>Field cz.fel.sin.library.model.Author.address<br/>Local variable named address<br/>At Author.java:[line 12]<br/>At Author.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.setBooks(List) may expose internal representation by storing an externally mutable object into Author.books<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.setBooks(List)<br/>Field cz.fel.sin.library.model.Author.books<br/>Local variable named books<br/>At Author.java:[line 12]<br/>At Author.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Author.setPublishers(List) may expose internal representation by storing an externally mutable object into Author.publishers<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Author<br/>In method cz.fel.sin.library.model.Author.setPublishers(List)<br/>Field cz.fel.sin.library.model.Author.publishers<br/>Local variable named publishers<br/>At Author.java:[line 12]<br/>At Author.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.setAuthor(List) may expose internal representation by storing an externally mutable object into Book.author<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 13 13<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.setAuthor(List)<br/>Field cz.fel.sin.library.model.Book.author<br/>Local variable named author<br/>At Book.java:[line 13]<br/>At Book.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.setGenre(Genre) may expose internal representation by storing an externally mutable object into Book.genre<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 13 13<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.setGenre(Genre)<br/>Field cz.fel.sin.library.model.Book.genre<br/>Local variable named genre<br/>At Book.java:[line 13]<br/>At Book.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Book.setPublisher(Publisher) may expose internal representation by storing an externally mutable object into Book.publisher<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 13 13<br/>In class cz.fel.sin.library.model.Book<br/>In method cz.fel.sin.library.model.Book.setPublisher(Publisher)<br/>Field cz.fel.sin.library.model.Book.publisher<br/>Local variable named publisher<br/>At Book.java:[line 13]<br/>At Book.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Genre.setBooks(List) may expose internal representation by storing an externally mutable object into Genre.books<br/>
+                  <br/>
+                  <br/>In file Genre.java Genre.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Genre<br/>In method cz.fel.sin.library.model.Genre.setBooks(List)<br/>Field cz.fel.sin.library.model.Genre.books<br/>Local variable named books<br/>At Genre.java:[line 12]<br/>At Genre.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Library.setAddress(Address) may expose internal representation by storing an externally mutable object into Library.address<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 11 11<br/>In class cz.fel.sin.library.model.Library<br/>In method cz.fel.sin.library.model.Library.setAddress(Address)<br/>Field cz.fel.sin.library.model.Library.address<br/>Local variable named address<br/>At Library.java:[line 11]<br/>At Library.java:[line 11]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Library.setBooks(List) may expose internal representation by storing an externally mutable object into Library.books<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 11 11<br/>In class cz.fel.sin.library.model.Library<br/>In method cz.fel.sin.library.model.Library.setBooks(List)<br/>Field cz.fel.sin.library.model.Library.books<br/>Local variable named books<br/>At Library.java:[line 11]<br/>At Library.java:[line 11]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.setAddress(Address) may expose internal representation by storing an externally mutable object into Publisher.address<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.setAddress(Address)<br/>Field cz.fel.sin.library.model.Publisher.address<br/>Local variable named address<br/>At Publisher.java:[line 12]<br/>At Publisher.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.setBooks(List) may expose internal representation by storing an externally mutable object into Publisher.books<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.setBooks(List)<br/>Field cz.fel.sin.library.model.Publisher.books<br/>Local variable named books<br/>At Publisher.java:[line 12]<br/>At Publisher.java:[line 12]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>cz.fel.sin.library.model.Publisher.setContracts(List) may expose internal representation by storing an externally mutable object into Publisher.contracts<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 12 12<br/>In class cz.fel.sin.library.model.Publisher<br/>In method cz.fel.sin.library.model.Publisher.setContracts(List)<br/>Field cz.fel.sin.library.model.Publisher.contracts<br/>Local variable named contracts<br/>At Publisher.java:[line 12]<br/>At Publisher.java:[line 12]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+      </h2>
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+      </h2>
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>

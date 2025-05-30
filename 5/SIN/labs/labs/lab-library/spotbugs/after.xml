@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.6" sequence="0" timestamp="1736023310719" analysisTimestamp="1736023308959" release="">
+  <Project projectName="lab-library[library]">
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\config\InterceptorAppConfig.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\config\SpringFoxConfig.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\BookController.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\config\JacksonConfig.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\config\RestResponseEntityExceptionHandler.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\interceptors\DetailedLoggingStrategy.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\interceptors\LoggerInterceptor.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\interceptors\LoggingStrategy.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\interceptors\ShortLoggingStrategy.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\LibraryController.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\controller\PublisherController.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\AbstractDTO.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\BookDTO.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\DTOMapper.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\DTOMapperImpl.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\request\BookCreate.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\RequestMapper.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\dto\RequestMapperImpl.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\exception\FieldInvalidException.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\exception\FieldMissingException.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\exception\FieldTooLongException.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\exception\NotFoundException.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\LibraryApplication.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Address.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Author.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Book.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Gender.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Genre.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Library.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\model\Publisher.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\AddressRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\AuthorRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\BookRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\GenreRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\LibraryRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\repository\PublisherRepository.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\BookService.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\BookServiceImpl.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\LibraryService.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\LibraryServiceImpl.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\PublisherService.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\classes\cz\fel\sin\library\service\PublisherServiceImpl.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\controller\BaseControllerTestRunner.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\controller\BookControllerTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\controller\LibraryControllerTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\controller\PublisherControllerTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\LibraryApplicationTests.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\service\BookServiceTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\service\LibraryServiceTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\service\PublisherServiceContractTest.class</Jar>
+    <Jar>C:\Users\lukas\OneDrive\Dokumenty\CVUT\SIN\labs\cafoulu1\labs\lab-library\target\test-classes\cz\fel\sin\library\service\PublisherServicePublishTest.class</Jar>
+    <AuxClasspathEntry>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/target/test-classes</AuxClasspathEntry>
+    <SrcDir>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/src/main/java</SrcDir>
+    <SrcDir>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/src/main/resources</SrcDir>
+    <SrcDir>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/src/test/java</SrcDir>
+    <SrcDir>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/target/generated-sources/annotations</SrcDir>
+    <SrcDir>C:/Users/lukas/OneDrive/Dokumenty/CVUT/SIN/labs/cafoulu1/labs/lab-library/target/generated-test-sources/test-annotations</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="c160a7984ddd52528ddc8e30a30d458c" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new cz.fel.sin.library.controller.LibraryController(LibraryService) may expose internal representation by storing an externally mutable object into LibraryController.libraryService</LongMessage>
+    <Class classname="cz.fel.sin.library.controller.LibraryController" primary="true" classAnnotationNames="org.springframework.web.bind.annotation.RestController">
+      <SourceLine classname="cz.fel.sin.library.controller.LibraryController" sourcefile="LibraryController.java" sourcepath="cz/fel/sin/library/controller/LibraryController.java" relSourcepath="src\main\java\cz\fel\sin\library\controller\LibraryController.java">
+        <Message>In LibraryController.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.controller.LibraryController</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.controller.LibraryController" name="&lt;init&gt;" signature="(Lcz/fel/sin/library/service/LibraryService;)V" isStatic="false" primary="true" classAnnotationNames="org.springframework.web.bind.annotation.RestController">
+      <SourceLine classname="cz.fel.sin.library.controller.LibraryController" start="14" end="14" startBytecode="0" endBytecode="61" sourcefile="LibraryController.java" sourcepath="cz/fel/sin/library/controller/LibraryController.java" relSourcepath="src\main\java\cz\fel\sin\library\controller\LibraryController.java"/>
+      <Message>In method new cz.fel.sin.library.controller.LibraryController(LibraryService)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.controller.LibraryController" name="libraryService" signature="Lcz/fel/sin/library/service/LibraryService;" isStatic="false" primary="true" classAnnotationNames="org.springframework.web.bind.annotation.RestController">
+      <SourceLine classname="cz.fel.sin.library.controller.LibraryController" sourcefile="LibraryController.java" sourcepath="cz/fel/sin/library/controller/LibraryController.java" relSourcepath="src\main\java\cz\fel\sin\library\controller\LibraryController.java">
+        <Message>In LibraryController.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.controller.LibraryController.libraryService</Message>
+    </Field>
+    <LocalVariable name="libraryService" register="1" pc="6" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named libraryService</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.controller.LibraryController" primary="true" start="14" end="14" startBytecode="6" endBytecode="6" sourcefile="LibraryController.java" sourcepath="cz/fel/sin/library/controller/LibraryController.java" relSourcepath="src\main\java\cz\fel\sin\library\controller\LibraryController.java">
+      <Message>At LibraryController.java:[line 14]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.controller.LibraryController" primary="true" start="14" end="14" startBytecode="6" endBytecode="6" sourcefile="LibraryController.java" sourcepath="cz/fel/sin/library/controller/LibraryController.java" relSourcepath="src\main\java\cz\fel\sin\library\controller\LibraryController.java">
+      <Message>At LibraryController.java:[line 14]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="ec87b4531f05596c5cc55582c0fbb5eb" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.getAuthor() may expose internal representation by returning BookDTO.author</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="getAuthor" signature="()Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="26" end="26" startBytecode="0" endBytecode="46" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.getAuthor()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="author" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.author</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="26" end="26" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 26]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="26" end="26" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 26]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="27e9bc2f0a8e957dcaa905a6e416b088" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.getGenre() may expose internal representation by returning BookDTO.genre</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="getGenre" signature="()Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="24" end="24" startBytecode="0" endBytecode="46" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.getGenre()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="genre" signature="Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.genre</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 24]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 24]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="1363d39d8137800edecef53679b880cd" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.getPublisher() may expose internal representation by returning BookDTO.publisher</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="getPublisher" signature="()Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="22" end="22" startBytecode="0" endBytecode="46" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.getPublisher()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="publisher" signature="Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.publisher</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="22" end="22" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 22]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="22" end="22" startBytecode="4" endBytecode="4" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 22]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="7d2d4ef8aaca3581d057f91e30f929ce" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.setAuthor(List) may expose internal representation by storing an externally mutable object into BookDTO.author</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="setAuthor" signature="(Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="11" end="11" startBytecode="0" endBytecode="75" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.setAuthor(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="author" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.author</Message>
+    </Field>
+    <LocalVariable name="author" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named author</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="9703c3d36a068591d420ac1f44403ecb" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.setGenre(Genre) may expose internal representation by storing an externally mutable object into BookDTO.genre</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="setGenre" signature="(Lcz/fel/sin/library/model/Genre;)V" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="11" end="11" startBytecode="0" endBytecode="57" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.setGenre(Genre)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="genre" signature="Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.genre</Message>
+    </Field>
+    <LocalVariable name="genre" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named genre</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="4ef0583859df22d4e388c241d7afe435" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.BookDTO.setPublisher(Publisher) may expose internal representation by storing an externally mutable object into BookDTO.publisher</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.BookDTO" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.BookDTO</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.BookDTO" name="setPublisher" signature="(Lcz/fel/sin/library/model/Publisher;)V" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" start="11" end="11" startBytecode="0" endBytecode="57" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java"/>
+      <Message>In method cz.fel.sin.library.dto.BookDTO.setPublisher(Publisher)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.BookDTO" name="publisher" signature="Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.BookDTO" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+        <Message>In BookDTO.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.BookDTO.publisher</Message>
+    </Field>
+    <LocalVariable name="publisher" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named publisher</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.BookDTO" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="BookDTO.java" sourcepath="cz/fel/sin/library/dto/BookDTO.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\BookDTO.java">
+      <Message>At BookDTO.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="acc581e60b97460a64af8fe495522732" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.request.BookCreate.getAuthors() may expose internal representation by returning BookCreate.authors</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.request.BookCreate" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+        <Message>In BookCreate.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.request.BookCreate</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.request.BookCreate" name="getAuthors" signature="()Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" start="33" end="33" startBytecode="0" endBytecode="46" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java"/>
+      <Message>In method cz.fel.sin.library.dto.request.BookCreate.getAuthors()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.request.BookCreate" name="authors" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+        <Message>In BookCreate.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.request.BookCreate.authors</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" primary="true" start="33" end="33" startBytecode="4" endBytecode="4" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+      <Message>At BookCreate.java:[line 33]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" primary="true" start="33" end="33" startBytecode="4" endBytecode="4" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+      <Message>At BookCreate.java:[line 33]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="9699363d72f6c0483c2260aa6ccd7c2e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.dto.request.BookCreate.setAuthors(List) may expose internal representation by storing an externally mutable object into BookCreate.authors</LongMessage>
+    <Class classname="cz.fel.sin.library.dto.request.BookCreate" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+        <Message>In BookCreate.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.dto.request.BookCreate</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.dto.request.BookCreate" name="setAuthors" signature="(Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" start="14" end="14" startBytecode="0" endBytecode="75" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java"/>
+      <Message>In method cz.fel.sin.library.dto.request.BookCreate.setAuthors(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.dto.request.BookCreate" name="authors" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+        <Message>In BookCreate.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.dto.request.BookCreate.authors</Message>
+    </Field>
+    <LocalVariable name="authors" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named authors</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" primary="true" start="14" end="14" startBytecode="2" endBytecode="2" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+      <Message>At BookCreate.java:[line 14]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.dto.request.BookCreate" primary="true" start="14" end="14" startBytecode="2" endBytecode="2" sourcefile="BookCreate.java" sourcepath="cz/fel/sin/library/dto/request/BookCreate.java" relSourcepath="src\main\java\cz\fel\sin\library\dto\request\BookCreate.java">
+      <Message>At BookCreate.java:[line 14]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="eaabb50c9642fffb57662e0bac912b2" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.getAddress() may expose internal representation by returning Author.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="getAddress" signature="()Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="29" end="29" startBytecode="0" endBytecode="46" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.getAddress()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.address</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 29]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 29]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="b634d0c87e37ed53fe1ac72d9abc3341" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.getBooks() may expose internal representation by returning Author.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="getBooks" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="35" end="35" startBytecode="0" endBytecode="46" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.getBooks()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.books</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="35" end="35" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 35]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="35" end="35" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 35]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="5b480375e1b46739f84471a4c7e91f66" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.getPublishers() may expose internal representation by returning Author.publishers</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="getPublishers" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="32" end="32" startBytecode="0" endBytecode="46" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.getPublishers()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="publishers" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.publishers</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="32" end="32" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 32]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="32" end="32" startBytecode="4" endBytecode="4" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 32]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="e9ca0c95a0f6bcba5bd575ecfe4d0a18" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.setAddress(Address) may expose internal representation by storing an externally mutable object into Author.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="setAddress" signature="(Lcz/fel/sin/library/model/Address;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="12" end="12" startBytecode="0" endBytecode="57" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.setAddress(Address)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.address</Message>
+    </Field>
+    <LocalVariable name="address" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named address</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="1671971dfd5e58dab67680701ac62052" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.setBooks(List) may expose internal representation by storing an externally mutable object into Author.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="setBooks" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="12" end="12" startBytecode="0" endBytecode="75" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.setBooks(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.books</Message>
+    </Field>
+    <LocalVariable name="books" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named books</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="fda482c01c83b4a35a4fcd2371514ebc" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Author.setPublishers(List) may expose internal representation by storing an externally mutable object into Author.publishers</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Author" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Author</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Author" name="setPublishers" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" start="12" end="12" startBytecode="0" endBytecode="75" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java"/>
+      <Message>In method cz.fel.sin.library.model.Author.setPublishers(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Author" name="publishers" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Author" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+        <Message>In Author.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Author.publishers</Message>
+    </Field>
+    <LocalVariable name="publishers" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named publishers</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Author" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Author.java" sourcepath="cz/fel/sin/library/model/Author.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Author.java">
+      <Message>At Author.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="2c90048a8c9ad0a8e1cbfe83da1b1b63" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.getAuthor() may expose internal representation by returning Book.author</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="getAuthor" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="42" end="42" startBytecode="0" endBytecode="46" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.getAuthor()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="author" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.author</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="42" end="42" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 42]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="42" end="42" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 42]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="bf4fc8697eb1730552212f1e6b5ed261" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.getGenre() may expose internal representation by returning Book.genre</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="getGenre" signature="()Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="34" end="34" startBytecode="0" endBytecode="46" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.getGenre()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="genre" signature="Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.genre</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="34" end="34" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 34]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="34" end="34" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 34]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="586709fcc0c7f07bcbeba4334c1fd035" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.getPublisher() may expose internal representation by returning Book.publisher</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="getPublisher" signature="()Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="30" end="30" startBytecode="0" endBytecode="46" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.getPublisher()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="publisher" signature="Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.publisher</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="30" end="30" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 30]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="30" end="30" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 30]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="b16c23d7867eff6fe2dadf0a9b0e7000" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.setAuthor(List) may expose internal representation by storing an externally mutable object into Book.author</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="setAuthor" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="13" end="13" startBytecode="0" endBytecode="75" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.setAuthor(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="author" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.author</Message>
+    </Field>
+    <LocalVariable name="author" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named author</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="ef72f5cfa85bea3fa9bd80e8f7d367a8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.setGenre(Genre) may expose internal representation by storing an externally mutable object into Book.genre</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="setGenre" signature="(Lcz/fel/sin/library/model/Genre;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="13" end="13" startBytecode="0" endBytecode="57" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.setGenre(Genre)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="genre" signature="Lcz/fel/sin/library/model/Genre;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.genre</Message>
+    </Field>
+    <LocalVariable name="genre" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named genre</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="66f395b102b1b60f1cc2aee6d9968a28" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Book.setPublisher(Publisher) may expose internal representation by storing an externally mutable object into Book.publisher</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Book" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Book</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Book" name="setPublisher" signature="(Lcz/fel/sin/library/model/Publisher;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" start="13" end="13" startBytecode="0" endBytecode="57" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java"/>
+      <Message>In method cz.fel.sin.library.model.Book.setPublisher(Publisher)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Book" name="publisher" signature="Lcz/fel/sin/library/model/Publisher;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Book" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Book.publisher</Message>
+    </Field>
+    <LocalVariable name="publisher" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named publisher</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Book" primary="true" start="13" end="13" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="cz/fel/sin/library/model/Book.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Book.java">
+      <Message>At Book.java:[line 13]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="c037d55865cdd4823e1a608ace5a9f2f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Genre.getBooks() may expose internal representation by returning Genre.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Genre" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+        <Message>In Genre.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Genre</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Genre" name="getBooks" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" start="21" end="21" startBytecode="0" endBytecode="46" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java"/>
+      <Message>In method cz.fel.sin.library.model.Genre.getBooks()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Genre" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+        <Message>In Genre.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Genre.books</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Genre" primary="true" start="21" end="21" startBytecode="4" endBytecode="4" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+      <Message>At Genre.java:[line 21]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Genre" primary="true" start="21" end="21" startBytecode="4" endBytecode="4" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+      <Message>At Genre.java:[line 21]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="f5935b30e39a58b5ca7c20a05c60adb1" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Genre.setBooks(List) may expose internal representation by storing an externally mutable object into Genre.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Genre" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+        <Message>In Genre.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Genre</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Genre" name="setBooks" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" start="12" end="12" startBytecode="0" endBytecode="75" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java"/>
+      <Message>In method cz.fel.sin.library.model.Genre.setBooks(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Genre" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Genre" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+        <Message>In Genre.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Genre.books</Message>
+    </Field>
+    <LocalVariable name="books" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named books</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Genre" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+      <Message>At Genre.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Genre" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Genre.java" sourcepath="cz/fel/sin/library/model/Genre.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Genre.java">
+      <Message>At Genre.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="7636152636f0468ad36b76b4228a6f5c" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Library.getAddress() may expose internal representation by returning Library.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Library" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Library</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Library" name="getAddress" signature="()Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" start="25" end="25" startBytecode="0" endBytecode="46" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java"/>
+      <Message>In method cz.fel.sin.library.model.Library.getAddress()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Library" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Library.address</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="25" end="25" startBytecode="4" endBytecode="4" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 25]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="25" end="25" startBytecode="4" endBytecode="4" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 25]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="a89a4d99a596ed65e64961f09d602f25" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Library.getBooks() may expose internal representation by returning Library.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Library" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Library</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Library" name="getBooks" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" start="29" end="29" startBytecode="0" endBytecode="46" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java"/>
+      <Message>In method cz.fel.sin.library.model.Library.getBooks()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Library" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Library.books</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 29]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 29]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="394f06b17a6b2f1b4dfec11816fccd38" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Library.setAddress(Address) may expose internal representation by storing an externally mutable object into Library.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Library" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Library</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Library" name="setAddress" signature="(Lcz/fel/sin/library/model/Address;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" start="11" end="11" startBytecode="0" endBytecode="57" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java"/>
+      <Message>In method cz.fel.sin.library.model.Library.setAddress(Address)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Library" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Library.address</Message>
+    </Field>
+    <LocalVariable name="address" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named address</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 11]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="ae15fd954e4face26b0c31c82bac1ff" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Library.setBooks(List) may expose internal representation by storing an externally mutable object into Library.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Library" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Library</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Library" name="setBooks" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" start="11" end="11" startBytecode="0" endBytecode="75" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java"/>
+      <Message>In method cz.fel.sin.library.model.Library.setBooks(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Library" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Library" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+        <Message>In Library.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Library.books</Message>
+    </Field>
+    <LocalVariable name="books" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named books</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 11]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Library" primary="true" start="11" end="11" startBytecode="2" endBytecode="2" sourcefile="Library.java" sourcepath="cz/fel/sin/library/model/Library.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Library.java">
+      <Message>At Library.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="2bda8f82daa73805578a1404e4373ceb" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.getAddress() may expose internal representation by returning Publisher.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="getAddress" signature="()Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="23" end="23" startBytecode="0" endBytecode="46" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.getAddress()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.address</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="23" end="23" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 23]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="23" end="23" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 23]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="aaeb37ff1d40c1cad8eea38f7c99265d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.getBooks() may expose internal representation by returning Publisher.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="getBooks" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="26" end="26" startBytecode="0" endBytecode="46" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.getBooks()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.books</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="26" end="26" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 26]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="26" end="26" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 26]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="d67504a1b385f14b42075e013adf3d73" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.getContracts() may expose internal representation by returning Publisher.contracts</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="getContracts" signature="()Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="34" end="34" startBytecode="0" endBytecode="46" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.getContracts()</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="contracts" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.contracts</Message>
+    </Field>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="34" end="34" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 34]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="34" end="34" startBytecode="4" endBytecode="4" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 34]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="8dd382bcedc83df0e32e8ec4d50ce72a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.setAddress(Address) may expose internal representation by storing an externally mutable object into Publisher.address</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="setAddress" signature="(Lcz/fel/sin/library/model/Address;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="12" end="12" startBytecode="0" endBytecode="57" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.setAddress(Address)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="address" signature="Lcz/fel/sin/library/model/Address;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.address</Message>
+    </Field>
+    <LocalVariable name="address" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named address</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="a4f1f481d660b7a5a7c31926cb169a8f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.setBooks(List) may expose internal representation by storing an externally mutable object into Publisher.books</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="setBooks" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="12" end="12" startBytecode="0" endBytecode="75" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.setBooks(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="books" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.books</Message>
+    </Field>
+    <LocalVariable name="books" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named books</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="aab237a3bb1bdbc2f40279bfac1a18c8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>cz.fel.sin.library.model.Publisher.setContracts(List) may expose internal representation by storing an externally mutable object into Publisher.contracts</LongMessage>
+    <Class classname="cz.fel.sin.library.model.Publisher" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>In class cz.fel.sin.library.model.Publisher</Message>
+    </Class>
+    <Method classname="cz.fel.sin.library.model.Publisher" name="setContracts" signature="(Ljava/util/List;)V" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" start="12" end="12" startBytecode="0" endBytecode="75" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java"/>
+      <Message>In method cz.fel.sin.library.model.Publisher.setContracts(List)</Message>
+    </Method>
+    <Field classname="cz.fel.sin.library.model.Publisher" name="contracts" signature="Ljava/util/List;" isStatic="false" primary="true" classAnnotationNames="jakarta.persistence.Entity,jakarta.persistence.Table">
+      <SourceLine classname="cz.fel.sin.library.model.Publisher" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+        <Message>In Publisher.java</Message>
+      </SourceLine>
+      <Message>Field cz.fel.sin.library.model.Publisher.contracts</Message>
+    </Field>
+    <LocalVariable name="contracts" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named contracts</Message>
+    </LocalVariable>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+    <SourceLine classname="cz.fel.sin.library.model.Publisher" primary="true" start="12" end="12" startBytecode="2" endBytecode="2" sourcefile="Publisher.java" sourcepath="cz/fel/sin/library/model/Publisher.java" relSourcepath="src\main\java\cz\fel\sin\library\model\Publisher.java">
+      <Message>At Publisher.java:[line 12]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 4 Jan 2025 21:41:03 +0100" total_classes="51" referenced_classes="124" total_bugs="33" total_size="1017" num_packages="11" java_version="21.0.5" vm_version="21.0.5+8-b631.28" cpu_seconds="10.08" clock_seconds="18.29" peak_mbytes="3135.79" alloc_mbytes="3982.00" gc_seconds="0.00" priority_2="33">
+    <FileStats path="cz/fel/sin/library/LibraryApplication.java" bugCount="0" size="23"/>
+    <FileStats path="cz/fel/sin/library/LibraryApplicationTests.java" bugCount="0" size="62"/>
+    <FileStats path="cz/fel/sin/library/config/InterceptorAppConfig.java" bugCount="0" size="9"/>
+    <FileStats path="cz/fel/sin/library/config/SpringFoxConfig.java" bugCount="0" size="9"/>
+    <FileStats path="cz/fel/sin/library/controller/BaseControllerTestRunner.java" bugCount="0" size="7"/>
+    <FileStats path="cz/fel/sin/library/controller/BookController.java" bugCount="0" size="7"/>
+    <FileStats path="cz/fel/sin/library/controller/BookControllerTest.java" bugCount="0" size="27"/>
+    <FileStats path="cz/fel/sin/library/controller/LibraryController.java" bugCount="1" size="13" bugHash="e0a337c199f750e0591731c489a9662b"/>
+    <FileStats path="cz/fel/sin/library/controller/LibraryControllerTest.java" bugCount="0" size="36"/>
+    <FileStats path="cz/fel/sin/library/controller/PublisherController.java" bugCount="0" size="18"/>
+    <FileStats path="cz/fel/sin/library/controller/PublisherControllerTest.java" bugCount="0" size="72"/>
+    <FileStats path="cz/fel/sin/library/controller/config/JacksonConfig.java" bugCount="0" size="8"/>
+    <FileStats path="cz/fel/sin/library/controller/config/RestResponseEntityExceptionHandler.java" bugCount="0" size="16"/>
+    <FileStats path="cz/fel/sin/library/controller/interceptors/DetailedLoggingStrategy.java" bugCount="0" size="40"/>
+    <FileStats path="cz/fel/sin/library/controller/interceptors/LoggerInterceptor.java" bugCount="0" size="12"/>
+    <FileStats path="cz/fel/sin/library/controller/interceptors/LoggingStrategy.java" bugCount="0" size="6"/>
+    <FileStats path="cz/fel/sin/library/controller/interceptors/ShortLoggingStrategy.java" bugCount="0" size="8"/>
+    <FileStats path="cz/fel/sin/library/dto/AbstractDTO.java" bugCount="0" size="8"/>
+    <FileStats path="cz/fel/sin/library/dto/BookDTO.java" bugCount="6" size="39" bugHash="6d83945f97f53079f81354a138324a1e"/>
+    <FileStats path="cz/fel/sin/library/dto/DTOMapper.java" bugCount="0" size="2"/>
+    <FileStats path="cz/fel/sin/library/dto/DTOMapperImpl.java" bugCount="0" size="17"/>
+    <FileStats path="cz/fel/sin/library/dto/RequestMapper.java" bugCount="0" size="2"/>
+    <FileStats path="cz/fel/sin/library/dto/RequestMapperImpl.java" bugCount="0" size="11"/>
+    <FileStats path="cz/fel/sin/library/dto/request/BookCreate.java" bugCount="2" size="33" bugHash="fc04d720fb7364ed48084c7c1b91466e"/>
+    <FileStats path="cz/fel/sin/library/exception/FieldInvalidException.java" bugCount="0" size="4"/>
+    <FileStats path="cz/fel/sin/library/exception/FieldMissingException.java" bugCount="0" size="4"/>
+    <FileStats path="cz/fel/sin/library/exception/FieldTooLongException.java" bugCount="0" size="4"/>
+    <FileStats path="cz/fel/sin/library/exception/NotFoundException.java" bugCount="0" size="4"/>
+    <FileStats path="cz/fel/sin/library/model/Address.java" bugCount="0" size="22"/>
+    <FileStats path="cz/fel/sin/library/model/Author.java" bugCount="6" size="34" bugHash="9790bb9c61e40a6bc0f1730967290701"/>
+    <FileStats path="cz/fel/sin/library/model/Book.java" bugCount="6" size="34" bugHash="5ccecf452039ff98c8010548283ee8bb"/>
+    <FileStats path="cz/fel/sin/library/model/Gender.java" bugCount="0" size="12"/>
+    <FileStats path="cz/fel/sin/library/model/Genre.java" bugCount="2" size="18" bugHash="747cd491eb1a59d9184c84a65ad616a4"/>
+    <FileStats path="cz/fel/sin/library/model/Library.java" bugCount="4" size="22" bugHash="c0bf8a6654df6a4622c8489724ba3fdd"/>
+    <FileStats path="cz/fel/sin/library/model/Publisher.java" bugCount="6" size="26" bugHash="f5efcd91b253842ebc353a20ec80536e"/>
+    <FileStats path="cz/fel/sin/library/repository/AddressRepository.java" bugCount="0" size="1"/>
+    <FileStats path="cz/fel/sin/library/repository/AuthorRepository.java" bugCount="0" size="1"/>
+    <FileStats path="cz/fel/sin/library/repository/BookRepository.java" bugCount="0" size="3"/>
+    <FileStats path="cz/fel/sin/library/repository/GenreRepository.java" bugCount="0" size="1"/>
+    <FileStats path="cz/fel/sin/library/repository/LibraryRepository.java" bugCount="0" size="1"/>
+    <FileStats path="cz/fel/sin/library/repository/PublisherRepository.java" bugCount="0" size="1"/>
+    <FileStats path="cz/fel/sin/library/service/BookService.java" bugCount="0" size="2"/>
+    <FileStats path="cz/fel/sin/library/service/BookServiceImpl.java" bugCount="0" size="15"/>
+    <FileStats path="cz/fel/sin/library/service/BookServiceTest.java" bugCount="0" size="30"/>
+    <FileStats path="cz/fel/sin/library/service/LibraryService.java" bugCount="0" size="3"/>
+    <FileStats path="cz/fel/sin/library/service/LibraryServiceImpl.java" bugCount="0" size="32"/>
+    <FileStats path="cz/fel/sin/library/service/LibraryServiceTest.java" bugCount="0" size="59"/>
+    <FileStats path="cz/fel/sin/library/service/PublisherService.java" bugCount="0" size="3"/>
+    <FileStats path="cz/fel/sin/library/service/PublisherServiceContractTest.java" bugCount="0" size="54"/>
+    <FileStats path="cz/fel/sin/library/service/PublisherServiceImpl.java" bugCount="0" size="55"/>
+    <FileStats path="cz/fel/sin/library/service/PublisherServicePublishTest.java" bugCount="0" size="87"/>
+    <PackageStats package="cz.fel.sin.library" total_bugs="0" total_types="2" total_size="85">
+      <ClassStats class="cz.fel.sin.library.LibraryApplication" sourceFile="LibraryApplication.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.LibraryApplicationTests" sourceFile="LibraryApplicationTests.java" interface="false" size="62" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.config" total_bugs="0" total_types="2" total_size="18">
+      <ClassStats class="cz.fel.sin.library.config.InterceptorAppConfig" sourceFile="InterceptorAppConfig.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.config.SpringFoxConfig" sourceFile="SpringFoxConfig.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.controller" total_bugs="1" total_types="7" total_size="180" priority_2="1">
+      <ClassStats class="cz.fel.sin.library.controller.BaseControllerTestRunner" sourceFile="BaseControllerTestRunner.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.BookController" sourceFile="BookController.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.BookControllerTest" sourceFile="BookControllerTest.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.LibraryController" sourceFile="LibraryController.java" interface="false" size="13" bugs="1" priority_2="1"/>
+      <ClassStats class="cz.fel.sin.library.controller.LibraryControllerTest" sourceFile="LibraryControllerTest.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.PublisherController" sourceFile="PublisherController.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.PublisherControllerTest" sourceFile="PublisherControllerTest.java" interface="false" size="72" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.controller.config" total_bugs="0" total_types="2" total_size="24">
+      <ClassStats class="cz.fel.sin.library.controller.config.JacksonConfig" sourceFile="JacksonConfig.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.config.RestResponseEntityExceptionHandler" sourceFile="RestResponseEntityExceptionHandler.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.controller.interceptors" total_bugs="0" total_types="4" total_size="66">
+      <ClassStats class="cz.fel.sin.library.controller.interceptors.DetailedLoggingStrategy" sourceFile="DetailedLoggingStrategy.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.interceptors.LoggerInterceptor" sourceFile="LoggerInterceptor.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.interceptors.LoggingStrategy" sourceFile="LoggingStrategy.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.controller.interceptors.ShortLoggingStrategy" sourceFile="ShortLoggingStrategy.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.dto" total_bugs="6" total_types="6" total_size="79" priority_2="6">
+      <ClassStats class="cz.fel.sin.library.dto.AbstractDTO" sourceFile="AbstractDTO.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.dto.BookDTO" sourceFile="BookDTO.java" interface="false" size="39" bugs="6" priority_2="6"/>
+      <ClassStats class="cz.fel.sin.library.dto.DTOMapper" sourceFile="DTOMapper.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.dto.DTOMapperImpl" sourceFile="DTOMapperImpl.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.dto.RequestMapper" sourceFile="RequestMapper.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.dto.RequestMapperImpl" sourceFile="RequestMapperImpl.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.dto.request" total_bugs="2" total_types="1" total_size="33" priority_2="2">
+      <ClassStats class="cz.fel.sin.library.dto.request.BookCreate" sourceFile="BookCreate.java" interface="false" size="33" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.exception" total_bugs="0" total_types="4" total_size="16">
+      <ClassStats class="cz.fel.sin.library.exception.FieldInvalidException" sourceFile="FieldInvalidException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.exception.FieldMissingException" sourceFile="FieldMissingException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.exception.FieldTooLongException" sourceFile="FieldTooLongException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.exception.NotFoundException" sourceFile="NotFoundException.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.model" total_bugs="24" total_types="7" total_size="168" priority_2="24">
+      <ClassStats class="cz.fel.sin.library.model.Address" sourceFile="Address.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.model.Author" sourceFile="Author.java" interface="false" size="34" bugs="6" priority_2="6"/>
+      <ClassStats class="cz.fel.sin.library.model.Book" sourceFile="Book.java" interface="false" size="34" bugs="6" priority_2="6"/>
+      <ClassStats class="cz.fel.sin.library.model.Gender" sourceFile="Gender.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.model.Genre" sourceFile="Genre.java" interface="false" size="18" bugs="2" priority_2="2"/>
+      <ClassStats class="cz.fel.sin.library.model.Library" sourceFile="Library.java" interface="false" size="22" bugs="4" priority_2="4"/>
+      <ClassStats class="cz.fel.sin.library.model.Publisher" sourceFile="Publisher.java" interface="false" size="26" bugs="6" priority_2="6"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.repository" total_bugs="0" total_types="6" total_size="8">
+      <ClassStats class="cz.fel.sin.library.repository.AddressRepository" sourceFile="AddressRepository.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.repository.AuthorRepository" sourceFile="AuthorRepository.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.repository.BookRepository" sourceFile="BookRepository.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.repository.GenreRepository" sourceFile="GenreRepository.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.repository.LibraryRepository" sourceFile="LibraryRepository.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.repository.PublisherRepository" sourceFile="PublisherRepository.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="cz.fel.sin.library.service" total_bugs="0" total_types="10" total_size="340">
+      <ClassStats class="cz.fel.sin.library.service.BookService" sourceFile="BookService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.BookServiceImpl" sourceFile="BookServiceImpl.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.BookServiceTest" sourceFile="BookServiceTest.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.LibraryService" sourceFile="LibraryService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.LibraryServiceImpl" sourceFile="LibraryServiceImpl.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.LibraryServiceTest" sourceFile="LibraryServiceTest.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.PublisherService" sourceFile="PublisherService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.PublisherServiceContractTest" sourceFile="PublisherServiceContractTest.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.PublisherServiceImpl" sourceFile="PublisherServiceImpl.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="cz.fel.sin.library.service.PublisherServicePublishTest" sourceFile="PublisherServicePublishTest.java" interface="false" size="87" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="301" invocations="928" avgMicrosecondsPerInvocation="325" maxMicrosecondsPerInvocation="6111" standardDeviationMicrosecondsPerInvocation="669"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="135" invocations="2" avgMicrosecondsPerInvocation="67682" maxMicrosecondsPerInvocation="104660" standardDeviationMicrosecondsPerInvocation="36978"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="104" invocations="124" avgMicrosecondsPerInvocation="839" maxMicrosecondsPerInvocation="9861" standardDeviationMicrosecondsPerInvocation="1691"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="88" invocations="938" avgMicrosecondsPerInvocation="94" maxMicrosecondsPerInvocation="473" standardDeviationMicrosecondsPerInvocation="49"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="71" invocations="124" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="6664" standardDeviationMicrosecondsPerInvocation="1145"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="66" invocations="453" avgMicrosecondsPerInvocation="146" maxMicrosecondsPerInvocation="2502" standardDeviationMicrosecondsPerInvocation="244"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="39" invocations="259" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="1269" standardDeviationMicrosecondsPerInvocation="216"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="33" invocations="262" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="1989" standardDeviationMicrosecondsPerInvocation="188"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="32" invocations="124" avgMicrosecondsPerInvocation="263" maxMicrosecondsPerInvocation="2166" standardDeviationMicrosecondsPerInvocation="472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="30" invocations="124" avgMicrosecondsPerInvocation="243" maxMicrosecondsPerInvocation="2429" standardDeviationMicrosecondsPerInvocation="440"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="26" invocations="259" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="1737" standardDeviationMicrosecondsPerInvocation="158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="25" invocations="124" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="2816" standardDeviationMicrosecondsPerInvocation="448"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="24" invocations="263" avgMicrosecondsPerInvocation="95" maxMicrosecondsPerInvocation="1304" standardDeviationMicrosecondsPerInvocation="137"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="23" invocations="264" avgMicrosecondsPerInvocation="90" maxMicrosecondsPerInvocation="1856" standardDeviationMicrosecondsPerInvocation="168"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="22" invocations="124" avgMicrosecondsPerInvocation="180" maxMicrosecondsPerInvocation="1684" standardDeviationMicrosecondsPerInvocation="355"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="21" invocations="262" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="901" standardDeviationMicrosecondsPerInvocation="93"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="20" invocations="172" avgMicrosecondsPerInvocation="118" maxMicrosecondsPerInvocation="1160" standardDeviationMicrosecondsPerInvocation="144"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ConstructorThrow" totalMilliseconds="16" invocations="51" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="1813" standardDeviationMicrosecondsPerInvocation="403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="16" invocations="197" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="1168" standardDeviationMicrosecondsPerInvocation="154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="124" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1275" standardDeviationMicrosecondsPerInvocation="221"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="15" invocations="773" avgMicrosecondsPerInvocation="19" maxMicrosecondsPerInvocation="449" standardDeviationMicrosecondsPerInvocation="36"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="13" invocations="124" avgMicrosecondsPerInvocation="112" maxMicrosecondsPerInvocation="1851" standardDeviationMicrosecondsPerInvocation="271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="12" invocations="51" avgMicrosecondsPerInvocation="248" maxMicrosecondsPerInvocation="1152" standardDeviationMicrosecondsPerInvocation="266"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="12" invocations="124" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="910" standardDeviationMicrosecondsPerInvocation="167"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="12" invocations="51" avgMicrosecondsPerInvocation="238" maxMicrosecondsPerInvocation="1137" standardDeviationMicrosecondsPerInvocation="284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="11" invocations="124" avgMicrosecondsPerInvocation="95" maxMicrosecondsPerInvocation="759" standardDeviationMicrosecondsPerInvocation="160"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="11" invocations="51" avgMicrosecondsPerInvocation="230" maxMicrosecondsPerInvocation="1230" standardDeviationMicrosecondsPerInvocation="270"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

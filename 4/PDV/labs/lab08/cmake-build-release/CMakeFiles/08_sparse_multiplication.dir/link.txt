@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG -flto -fno-fat-lto-objects   CMakeFiles/08_sparse_multiplication.dir/src/main.cpp.o CMakeFiles/08_sparse_multiplication.dir/src/multiply.cpp.o  -o 08_sparse_multiplication  /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

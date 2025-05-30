@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG -flto -fno-fat-lto-objects   CMakeFiles/hw.dir/src/main.cpp.o CMakeFiles/hw.dir/src/bfs.cpp.o CMakeFiles/hw.dir/src/iddfs.cpp.o CMakeFiles/hw.dir/src/iddfs_weighted.cpp.o  -o hw  /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

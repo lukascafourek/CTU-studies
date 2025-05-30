@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRP - Cvičení</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="remark/css/fel_cvut.css">
+  </head>
+  <body>
+    <textarea id="source">
+        WARNING: No markup loaded.
+    </textarea>
+    <script src="remark/js/remark-latest.min.js">
+    </script>
+    <script src="remark/js/remark-macros.js">
+    </script>
+    <script>
+      var mdFile = window.location.search.substr(1);
+      document.title = document.title + " " + mdFile + ".";
+      var slideshow = remark.create({
+        sourceUrl: "prp/" + mdFile + ".md",
+        countIncrementalSlides: false,
+        highlightLanguage: "c",
+        highlightStyle: "ir-black", // "magula",
+        ratio: "4:3"
+      });
+    </script>
+  </body>
+</html>

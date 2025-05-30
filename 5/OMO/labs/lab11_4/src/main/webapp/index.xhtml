@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+    <h:head>
+        <title>Úvodní stránka</title>
+    </h:head>
+    <h:body>
+
+        <ui:include src="/WEB-INF/include.xhtml" />
+
+
+        <!-- 
+            Admin menu:<br/>
+            <h:link outcome="admin/createUserAdmin" value="Create Admin User"/><br/>
+            <h:link outcome="admin/createUserAdvisoryBoardMember" value="Create AdvisoryBoardMember User"/><br/>
+            <h:link outcome="admin/createUserAuthor" value="Create Author User"/><br/>
+            <h:link outcome="admin/createUserCorrector" value="Create Corrector User"/><br/>
+            Articles:<br/>
+            <h:link outcome="createArticle" value="Create Article"/><br/>
+            <h:link outcome="listArticles" value="List Articles"/><br/>
+            <h:link outcome="listUserAdmins" value="List Admins"/><br/>
+        -->
+        <center>
+            <span class="message1">#{articleBB.message}</span>
+
+            <div class="content">
+                <c:if test="${loginBB.role!='ROLE_ADMIN'}">
+                    <h1>Výpis článků</h1>
+                </c:if>
+                <c:if test="${loginBB.role=='ROLE_ADMIN'}">
+                    <h1>Administrátorská sekce</h1>
+                    <h:link outcome="/admin/createUserAdmin" value="#{msg['create.admin.user']}"/><br/>
+                    <h:link outcome="/admin/createUserAdvisoryBoardMember" value="#{msg['create.advisoryBoardMember.user']}"/><br/>
+                    <h:link outcome="/admin/createUserAuthor" value="#{msg['create.author.user']}"/><br/>
+                    <h:link outcome="/admin/createUserCorrector" value="#{msg['create.corrector.user']}"/><br/>
+                </c:if>
+                <br/>
+                <h:dataTable style="border:1px gray solid;" value="#{articleServiceImpl.allArticles}" var="item" rendered="#{loginBB.role=='ROLE_BOARD_MEMBER'}" binding="#{articleBB.datatableArticles}" >
+                    <h:column>
+                        <f:facet name="header">Id</f:facet>
+                            #{item.id}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Name</f:facet>
+
+                        <h:link outcome="/detailArticle" value="#{item.name}">
+                            <f:param name="articleId" value="#{item.id}" />
+                        </h:link>
+
+
+
+
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Priority</f:facet>
+                            #{item.isPriority()}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Status</f:facet>
+                            #{msg['status.'.concat(item.status)]}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version</f:facet>
+                        <c:if test="${not(item.versions.isEmpty())}">#{articleServiceImpl.getNewestVersionOfArticle(item.id).datetime.toString()}</c:if>
+                        <!--<c:otherwise >no version</c:otherwise>-->
+
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version File</f:facet>
+                        <!-- request.contextPath + path of file -->
+                        #{articleBB.setPathOfFile(item.id)}
+                        <c:if test="${not(item.versions.isEmpty())}">
+                            <h:outputLink value="#{request.contextPath}/resources/files/#{articleBB.pathOfFile}">
+                                <h:graphicImage library="images" name="pdf.jpg" style="border:none"/>
+                            </h:outputLink>
+                        </c:if>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Assigned Corrector</f:facet>
+                            #{articleBB.correctorOfArticle(item.correctorID)}
+
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Assign to corrector</f:facet>
+                        <h:form>
+                            <h:selectOneMenu id="correctors" onchange="submit()"
+                                             valueChangeListener="#{articleBB.selectedCorrectorChange}"> 
+                                <f:selectItems value="#{articleBB.allCorrectors}" />
+                            </h:selectOneMenu>
+                        </h:form>
+                    </h:column>
+
+
+
+                </h:dataTable>
+
+                <h:dataTable style="border:1px gray solid;" value="#{articleServiceImpl.getArticlesForAuthor(loginBB.id)}" var="item" rendered="#{loginBB.role=='ROLE_AUTHOR'}">
+                    <h:column>
+                        <f:facet name="header">Id</f:facet>
+                            #{item.id}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Name</f:facet>
+                        <h:link outcome="/detailArticle" value="#{item.name}"> 
+                            <f:param name="articleId" value="#{item.id}" />   
+                        </h:link>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Priority</f:facet>
+                            #{item.isPriority()}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Status</f:facet>
+                            #{msg['status.'.concat(item.status)]}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version</f:facet>
+                        <c:if test="${not(item.versions.isEmpty())}">
+                            #{articleServiceImpl.getNewestVersionOfArticle(item.id).datetime.toString()}
+                        </c:if>
+                        <!--<c:otherwise >no version</c:otherwise>-->
+
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version File</f:facet>
+                        <!-- request.contextPath + path of file -->
+                        #{articleBB.setPathOfFile(item.id)}
+                        <c:if test="${not(item.versions.isEmpty())}">
+                            <h:outputLink value="#{request.contextPath}/resources/files/#{articleBB.pathOfFile}">
+                                <h:graphicImage library="images" name="pdf.jpg" style="border:none"/>
+                            </h:outputLink>
+                        </c:if>
+                    </h:column>
+
+                </h:dataTable>
+
+
+                <h:dataTable style="border:1px gray solid;" value="#{articleServiceImpl.getArticlesForCorrector(loginBB.id)}" var="item" rendered="#{loginBB.role=='ROLE_CORRECTOR'}">
+                    <h:column>
+                        <f:facet name="header">Id</f:facet>
+                            #{item.id}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Name</f:facet>
+                        <h:link outcome="/detailArticle" value="#{item.name}"> 
+                            <f:param name="articleId" value="#{item.id}" />   
+                        </h:link>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Priority</f:facet>
+                            #{item.isPriority()}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Status</f:facet>
+                            #{msg['status.'.concat(item.status)]}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version</f:facet>
+                        <c:if test="${not(item.versions.isEmpty())}">#{articleServiceImpl.getNewestVersionOfArticle(item.id).datetime.toString()}</c:if>
+                        <!--<c:otherwise >no version</c:otherwise>-->
+
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Latest Version File</f:facet>
+                        <!-- request.contextPath + path of file -->
+                        #{articleBB.setPathOfFile(item.id)}
+                        <c:if test="${not(item.versions.isEmpty())}">
+                            <h:outputLink value="#{request.contextPath}/resources/files/#{articleBB.pathOfFile}">
+                                <h:graphicImage library="images" name="pdf.jpg" style="border:none"/>
+                            </h:outputLink>
+                        </c:if>
+                    </h:column>
+
+                </h:dataTable>
+
+            </div>
+        </center>
+    </h:body>
+</html>
+

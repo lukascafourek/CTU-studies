@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>Vytvoření admina</title>
+    </h:head>
+    <h:body>
+        
+        <ui:include src="/WEB-INF/include.xhtml" />
+        
+<h1>Vytvoření admina</h1>        
+<h:form>
+Username<h:inputText value="#{userAdminBB.username}"/><br/>
+Password<h:inputSecret value="#{userAdminBB.password}"/><br/>
+
+<h:commandButton value="create" action="#{userAdminBB.saveUser()}"/><br/>
+<h:messages showDetail="true"/>
+</h:form>
+       
+        
+    </h:body>
+</html>
+

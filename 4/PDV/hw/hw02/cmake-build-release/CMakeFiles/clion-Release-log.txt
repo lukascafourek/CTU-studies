@@ -1,0 +1,7 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/lukas/Documents/PDV/hw/hw02 -B /mnt/c/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release"
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release

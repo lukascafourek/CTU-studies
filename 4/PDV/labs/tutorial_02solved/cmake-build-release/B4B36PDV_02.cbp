@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="B4B36PDV_02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condition_variable.bin">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/condition_variable.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 condition_variable.bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condition_variable.bin/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/condition_variable.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 condition_variable.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt.bin">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/decrypt.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 decrypt.bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt.bin/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/decrypt.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 decrypt.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark.bin">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/benchmark.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark.bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark.bin/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/benchmark.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/PDVCrypt.cpp">
+			<Option target="decrypt.bin"/>
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/PDVCrypt.h">
+			<Option target="decrypt.bin"/>
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/benchmark.cpp">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/condition_variable.cpp">
+			<Option target="condition_variable.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/decrypt.cpp">
+			<Option target="decrypt.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/decryption.cpp">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/decryption.h">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_02solved/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

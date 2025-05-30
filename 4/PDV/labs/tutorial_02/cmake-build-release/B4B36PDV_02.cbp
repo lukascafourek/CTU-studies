@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="B4B36PDV_02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark.bin">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/benchmark.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark.bin"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark.bin/fast">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/benchmark.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark.bin/fast"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condition_variable.bin">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/condition_variable.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 condition_variable.bin"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condition_variable.bin/fast">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/condition_variable.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 condition_variable.bin/fast"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt.bin">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/decrypt.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 decrypt.bin"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt.bin/fast">
+				<Option output="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/decrypt.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/aarch64-apple-darwin23"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../include/c++/13/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 decrypt.bin/fast"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/Cellar/make/4.4.1/bin/gmake -j8 -f &quot;/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/PDVCrypt.cpp">
+			<Option target="benchmark.bin"/>
+			<Option target="decrypt.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/PDVCrypt.h">
+			<Option target="benchmark.bin"/>
+			<Option target="decrypt.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/benchmark.cpp">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/condition_variable.cpp">
+			<Option target="condition_variable.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/decrypt.cpp">
+			<Option target="decrypt.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/decryption.cpp">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/decryption.h">
+			<Option target="benchmark.bin"/>
+		</Unit>
+		<Unit filename="/Users/lukascafourek/Documents/4/PDV/labs/tutorial_02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG -flto -fno-fat-lto-objects   CMakeFiles/02_1threads.dir/src/1threads_benchmark.cpp.o CMakeFiles/02_1threads.dir/src/1threads.cpp.o  -o 02_1threads  /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

@@ -1,0 +1,104 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pdv_lab01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_0hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_0hello-Release-415a737721fe38b016cd.json",
+					"name" : "01_0hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_1memory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_1memory-Release-7714ef6e4e28fb5bc114.json",
+					"name" : "01_1memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_2matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_2matrix-Release-9c89fa7ee6b5fd6f1567.json",
+					"name" : "01_2matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_3false_sharing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_3false_sharing-Release-7e80d0032b20e0229d6d.json",
+					"name" : "01_3false_sharing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_4magic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_4magic-Release-3482d3dc8eaa32ad58ea.json",
+					"name" : "01_4magic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_5decrypt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_5decrypt-Release-6c26bf0cd376016d068b.json",
+					"name" : "01_5decrypt",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/lukas/Documents/PDV/labs/pdv-lab01-intro/cmake-build-release",
+		"source" : "/mnt/c/Users/lukas/Documents/PDV/labs/pdv-lab01-intro"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,9 @@
+cz.cvut.fel.sin.sintest
+cz.cvut.fel.sin.sintest.config
+cz.cvut.fel.sin.sintest.controller
+cz.cvut.fel.sin.sintest.controller.config
+cz.cvut.fel.sin.sintest.controller.interceptors
+cz.cvut.fel.sin.sintest.exception
+cz.cvut.fel.sin.sintest.model
+cz.cvut.fel.sin.sintest.repository
+cz.cvut.fel.sin.sintest.service

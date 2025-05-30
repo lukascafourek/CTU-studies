@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VYSLEDKY_ZAHRANICI xmlns="http://www.volby.cz/prezident/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.volby.cz/prezident/pe_vysledky_zahranici.xsd"
+                    DATUM_CAS_GENEROVANI="2023-09-14T16:44:05" KOLO="2">
+    <ZAHRANICI>
+        <KONTINENT ZKRATKA="AF" NAZEV="Afrika">
+            <STAT ZKRATKA="CD" NAZEV="Konžská demokratická republika">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="5"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="7"
+                       VYDANE_OBALKY="5" UCAST_PROC="71.43" ODEVZDANE_OBALKY="5" PLATNE_HLASY="5"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="DZ" NAZEV="Alžírsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="7"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="24"
+                       VYDANE_OBALKY="7" UCAST_PROC="29.17" ODEVZDANE_OBALKY="7" PLATNE_HLASY="7"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="EG" NAZEV="Egypt">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="65"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="6"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="90"
+                       VYDANE_OBALKY="71" UCAST_PROC="78.89" ODEVZDANE_OBALKY="71" PLATNE_HLASY="71"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ET" NAZEV="Etiopie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="26"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="35"
+                       VYDANE_OBALKY="29" UCAST_PROC="82.86" ODEVZDANE_OBALKY="28" PLATNE_HLASY="28"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="GH" NAZEV="Ghana">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="10"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="13"
+                       VYDANE_OBALKY="10" UCAST_PROC="76.92" ODEVZDANE_OBALKY="10" PLATNE_HLASY="10"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="KE" NAZEV="Keňa">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="35"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="42"
+                       VYDANE_OBALKY="37" UCAST_PROC="88.10" ODEVZDANE_OBALKY="37" PLATNE_HLASY="37"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="MA" NAZEV="Maroko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="34"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="39"
+                       VYDANE_OBALKY="36" UCAST_PROC="92.31" ODEVZDANE_OBALKY="36" PLATNE_HLASY="36"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="NG" NAZEV="Nigérie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="14"
+                       VYDANE_OBALKY="8" UCAST_PROC="57.14" ODEVZDANE_OBALKY="8" PLATNE_HLASY="8"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SN" NAZEV="Senegal">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="15"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="22"
+                       VYDANE_OBALKY="15" UCAST_PROC="68.18" ODEVZDANE_OBALKY="15" PLATNE_HLASY="15"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="TN" NAZEV="Tunisko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="21"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="25"
+                       VYDANE_OBALKY="23" UCAST_PROC="92.00" ODEVZDANE_OBALKY="23" PLATNE_HLASY="23"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ZA" NAZEV="Jihoafrická republika">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="38"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="97"
+                       VYDANE_OBALKY="38" UCAST_PROC="39.18" ODEVZDANE_OBALKY="38" PLATNE_HLASY="38"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ZM" NAZEV="Zambie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="15"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="32"
+                       VYDANE_OBALKY="18" UCAST_PROC="56.25" ODEVZDANE_OBALKY="18" PLATNE_HLASY="18"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <CELKEM>
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="279"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="17"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="12" OKRSKY_ZPRAC="12" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="440"
+                       VYDANE_OBALKY="297" UCAST_PROC="67.50" ODEVZDANE_OBALKY="296" PLATNE_HLASY="296"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </CELKEM>
+        </KONTINENT>
+        <KONTINENT ZKRATKA="AM" NAZEV="Amerika">
+            <STAT ZKRATKA="AR" NAZEV="Argentina">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="33"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="102"
+                       VYDANE_OBALKY="37" UCAST_PROC="36.27" ODEVZDANE_OBALKY="37" PLATNE_HLASY="37"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="BR" NAZEV="Brazílie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="49"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="101"
+                       VYDANE_OBALKY="50" UCAST_PROC="49.50" ODEVZDANE_OBALKY="50" PLATNE_HLASY="50"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="CA" NAZEV="Kanada">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="259"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="13"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="685"
+                       VYDANE_OBALKY="275" UCAST_PROC="40.15" ODEVZDANE_OBALKY="275" PLATNE_HLASY="272"
+                       PLATNE_HLASY_PROC="98.91"/>
+            </STAT>
+            <STAT ZKRATKA="CL" NAZEV="Chile">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="52"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="77"
+                       VYDANE_OBALKY="54" UCAST_PROC="70.13" ODEVZDANE_OBALKY="54" PLATNE_HLASY="54"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="CO" NAZEV="Kolumbie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="52"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="172"
+                       VYDANE_OBALKY="55" UCAST_PROC="31.98" ODEVZDANE_OBALKY="55" PLATNE_HLASY="53"
+                       PLATNE_HLASY_PROC="96.36"/>
+            </STAT>
+            <STAT ZKRATKA="CU" NAZEV="Kuba">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="24"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="6"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="38"
+                       VYDANE_OBALKY="30" UCAST_PROC="78.95" ODEVZDANE_OBALKY="30" PLATNE_HLASY="30"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="MX" NAZEV="Mexiko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="89"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="6"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="125"
+                       VYDANE_OBALKY="95" UCAST_PROC="76.00" ODEVZDANE_OBALKY="95" PLATNE_HLASY="95"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="PE" NAZEV="Peru">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="28"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="49"
+                       VYDANE_OBALKY="31" UCAST_PROC="63.27" ODEVZDANE_OBALKY="31" PLATNE_HLASY="31"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="US" NAZEV="Spojené státy">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="876"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="57"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="4" OKRSKY_ZPRAC="4" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1718"
+                       VYDANE_OBALKY="934" UCAST_PROC="54.37" ODEVZDANE_OBALKY="934" PLATNE_HLASY="933"
+                       PLATNE_HLASY_PROC="99.89"/>
+            </STAT>
+            <CELKEM>
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="1462"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="93"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="14" OKRSKY_ZPRAC="14" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="3067"
+                       VYDANE_OBALKY="1561" UCAST_PROC="50.90" ODEVZDANE_OBALKY="1561" PLATNE_HLASY="1555"
+                       PLATNE_HLASY_PROC="99.62"/>
+            </CELKEM>
+        </KONTINENT>
+        <KONTINENT ZKRATKA="AO" NAZEV="Austrálie a Oceánie">
+            <STAT ZKRATKA="AU" NAZEV="Austrálie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="280"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="34"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="729"
+                       VYDANE_OBALKY="315" UCAST_PROC="43.21" ODEVZDANE_OBALKY="315" PLATNE_HLASY="314"
+                       PLATNE_HLASY_PROC="99.68"/>
+            </STAT>
+            <CELKEM>
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="280"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="34"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="729"
+                       VYDANE_OBALKY="315" UCAST_PROC="43.21" ODEVZDANE_OBALKY="315" PLATNE_HLASY="314"
+                       PLATNE_HLASY_PROC="99.68"/>
+            </CELKEM>
+        </KONTINENT>
+        <KONTINENT ZKRATKA="AS" NAZEV="Asie">
+            <STAT ZKRATKA="AE" NAZEV="Spojené arabské emiráty">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="203"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="235"
+                       VYDANE_OBALKY="211" UCAST_PROC="89.79" ODEVZDANE_OBALKY="211" PLATNE_HLASY="211"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="AM" NAZEV="Arménie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="17"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="23"
+                       VYDANE_OBALKY="18" UCAST_PROC="78.26" ODEVZDANE_OBALKY="18" PLATNE_HLASY="18"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="AZ" NAZEV="Ázerbájdžán">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="12"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="5"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="19"
+                       VYDANE_OBALKY="17" UCAST_PROC="89.47" ODEVZDANE_OBALKY="17" PLATNE_HLASY="17"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="CN" NAZEV="Čína">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="103"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="12"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="3" OKRSKY_ZPRAC="3" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="181"
+                       VYDANE_OBALKY="117" UCAST_PROC="64.64" ODEVZDANE_OBALKY="117" PLATNE_HLASY="115"
+                       PLATNE_HLASY_PROC="98.29"/>
+            </STAT>
+            <STAT ZKRATKA="CY" NAZEV="Kypr">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="95"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="12"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="125"
+                       VYDANE_OBALKY="108" UCAST_PROC="86.40" ODEVZDANE_OBALKY="108" PLATNE_HLASY="107"
+                       PLATNE_HLASY_PROC="99.07"/>
+            </STAT>
+            <STAT ZKRATKA="GE" NAZEV="Gruzie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="66"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="76"
+                       VYDANE_OBALKY="70" UCAST_PROC="92.11" ODEVZDANE_OBALKY="70" PLATNE_HLASY="70"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ID" NAZEV="Indonésie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="44"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="67"
+                       VYDANE_OBALKY="46" UCAST_PROC="68.66" ODEVZDANE_OBALKY="46" PLATNE_HLASY="46"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="IL" NAZEV="Izrael">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="165"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="206"
+                       VYDANE_OBALKY="174" UCAST_PROC="84.47" ODEVZDANE_OBALKY="174" PLATNE_HLASY="173"
+                       PLATNE_HLASY_PROC="99.43"/>
+            </STAT>
+            <STAT ZKRATKA="IN" NAZEV="Indie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="43"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="56"
+                       VYDANE_OBALKY="43" UCAST_PROC="76.79" ODEVZDANE_OBALKY="43" PLATNE_HLASY="43"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="IQ" NAZEV="Irák">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="28"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="39"
+                       VYDANE_OBALKY="32" UCAST_PROC="82.05" ODEVZDANE_OBALKY="32" PLATNE_HLASY="30"
+                       PLATNE_HLASY_PROC="93.75"/>
+            </STAT>
+            <STAT ZKRATKA="IR" NAZEV="Írán">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="13"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="15"
+                       VYDANE_OBALKY="13" UCAST_PROC="86.67" ODEVZDANE_OBALKY="13" PLATNE_HLASY="13"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="JO" NAZEV="Jordánsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="99"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="103"
+                       VYDANE_OBALKY="100" UCAST_PROC="97.09" ODEVZDANE_OBALKY="100" PLATNE_HLASY="100"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="JP" NAZEV="Japonsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="112"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="138"
+                       VYDANE_OBALKY="114" UCAST_PROC="82.61" ODEVZDANE_OBALKY="114" PLATNE_HLASY="113"
+                       PLATNE_HLASY_PROC="99.12"/>
+            </STAT>
+            <STAT ZKRATKA="KH" NAZEV="Kambodža">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="25"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="30"
+                       VYDANE_OBALKY="29" UCAST_PROC="96.67" ODEVZDANE_OBALKY="29" PLATNE_HLASY="29"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="KR" NAZEV="Korea">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="63"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="88"
+                       VYDANE_OBALKY="71" UCAST_PROC="80.68" ODEVZDANE_OBALKY="71" PLATNE_HLASY="71"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="KW" NAZEV="Kuvajt">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="15"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="13"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="33"
+                       VYDANE_OBALKY="29" UCAST_PROC="87.88" ODEVZDANE_OBALKY="29" PLATNE_HLASY="28"
+                       PLATNE_HLASY_PROC="96.55"/>
+            </STAT>
+            <STAT ZKRATKA="KZ" NAZEV="Kazachstán">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="12"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="7"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="23"
+                       VYDANE_OBALKY="19" UCAST_PROC="82.61" ODEVZDANE_OBALKY="19" PLATNE_HLASY="19"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="LB" NAZEV="Libanon">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="22"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="38"
+                       VYDANE_OBALKY="26" UCAST_PROC="68.42" ODEVZDANE_OBALKY="26" PLATNE_HLASY="26"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="MM" NAZEV="Myanmar">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="5"
+                       VYDANE_OBALKY="3" UCAST_PROC="60.00" ODEVZDANE_OBALKY="3" PLATNE_HLASY="3"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="MN" NAZEV="Mongolsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="9"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="16"
+                       VYDANE_OBALKY="13" UCAST_PROC="81.25" ODEVZDANE_OBALKY="13" PLATNE_HLASY="12"
+                       PLATNE_HLASY_PROC="92.31"/>
+            </STAT>
+            <STAT ZKRATKA="MY" NAZEV="Malajsie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="42"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="55"
+                       VYDANE_OBALKY="44" UCAST_PROC="80.00" ODEVZDANE_OBALKY="44" PLATNE_HLASY="43"
+                       PLATNE_HLASY_PROC="97.73"/>
+            </STAT>
+            <STAT ZKRATKA="PH" NAZEV="Filipíny">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="48"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="57"
+                       VYDANE_OBALKY="50" UCAST_PROC="87.72" ODEVZDANE_OBALKY="50" PLATNE_HLASY="50"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="PK" NAZEV="Pákistán">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="17"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="18"
+                       VYDANE_OBALKY="17" UCAST_PROC="94.44" ODEVZDANE_OBALKY="17" PLATNE_HLASY="17"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="QA" NAZEV="Katar">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="73"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="76"
+                       VYDANE_OBALKY="76" UCAST_PROC="100.00" ODEVZDANE_OBALKY="75" PLATNE_HLASY="75"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SA" NAZEV="Saúdská Arábie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="43"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="53"
+                       VYDANE_OBALKY="47" UCAST_PROC="88.68" ODEVZDANE_OBALKY="47" PLATNE_HLASY="47"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SG" NAZEV="Singapur">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="84"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="108"
+                       VYDANE_OBALKY="87" UCAST_PROC="80.56" ODEVZDANE_OBALKY="87" PLATNE_HLASY="87"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SY" NAZEV="Sýrie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="13"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="20"
+                       VYDANE_OBALKY="15" UCAST_PROC="75.00" ODEVZDANE_OBALKY="15" PLATNE_HLASY="15"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="TH" NAZEV="Thajsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="263"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="16"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="300"
+                       VYDANE_OBALKY="279" UCAST_PROC="93.00" ODEVZDANE_OBALKY="279" PLATNE_HLASY="279"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="TR" NAZEV="Turecko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="80"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="92"
+                       VYDANE_OBALKY="81" UCAST_PROC="88.04" ODEVZDANE_OBALKY="81" PLATNE_HLASY="81"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="TW" NAZEV="Tchaj-wan">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="55"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="65"
+                       VYDANE_OBALKY="55" UCAST_PROC="84.62" ODEVZDANE_OBALKY="55" PLATNE_HLASY="55"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="UZ" NAZEV="Uzbekistán">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="6"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="11"
+                       VYDANE_OBALKY="10" UCAST_PROC="90.91" ODEVZDANE_OBALKY="10" PLATNE_HLASY="10"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="VN" NAZEV="Vietnam">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="97"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="9"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="116"
+                       VYDANE_OBALKY="106" UCAST_PROC="91.38" ODEVZDANE_OBALKY="106" PLATNE_HLASY="106"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <CELKEM>
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="1970"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="139"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="36" OKRSKY_ZPRAC="36" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="2487"
+                       VYDANE_OBALKY="2120" UCAST_PROC="85.24" ODEVZDANE_OBALKY="2119" PLATNE_HLASY="2109"
+                       PLATNE_HLASY_PROC="99.53"/>
+            </CELKEM>
+        </KONTINENT>
+        <KONTINENT ZKRATKA="EV" NAZEV="Evropa">
+            <STAT ZKRATKA="AL" NAZEV="Albánie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="31"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="38"
+                       VYDANE_OBALKY="34" UCAST_PROC="89.47" ODEVZDANE_OBALKY="34" PLATNE_HLASY="34"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="AT" NAZEV="Rakousko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="1044"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="37"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1206"
+                       VYDANE_OBALKY="1084" UCAST_PROC="89.88" ODEVZDANE_OBALKY="1084" PLATNE_HLASY="1081"
+                       PLATNE_HLASY_PROC="99.72"/>
+            </STAT>
+            <STAT ZKRATKA="BA" NAZEV="Bosna a Hercegovina">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="51"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="56"
+                       VYDANE_OBALKY="52" UCAST_PROC="92.86" ODEVZDANE_OBALKY="52" PLATNE_HLASY="52"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="BE" NAZEV="Belgie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="1409"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="59"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1724"
+                       VYDANE_OBALKY="1474" UCAST_PROC="85.50" ODEVZDANE_OBALKY="1472" PLATNE_HLASY="1468"
+                       PLATNE_HLASY_PROC="99.73"/>
+            </STAT>
+            <STAT ZKRATKA="BG" NAZEV="Bulharsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="73"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="128"
+                       VYDANE_OBALKY="83" UCAST_PROC="64.84" ODEVZDANE_OBALKY="83" PLATNE_HLASY="81"
+                       PLATNE_HLASY_PROC="97.59"/>
+            </STAT>
+            <STAT ZKRATKA="BY" NAZEV="Bělorusko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="12"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="16"
+                       VYDANE_OBALKY="12" UCAST_PROC="75.00" ODEVZDANE_OBALKY="12" PLATNE_HLASY="12"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="CH" NAZEV="Švýcarsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="1369"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="30"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1655"
+                       VYDANE_OBALKY="1402" UCAST_PROC="84.71" ODEVZDANE_OBALKY="1402" PLATNE_HLASY="1399"
+                       PLATNE_HLASY_PROC="99.79"/>
+            </STAT>
+            <STAT ZKRATKA="DE" NAZEV="Německo">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="3006"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="112"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="4" OKRSKY_ZPRAC="4" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="3466"
+                       VYDANE_OBALKY="3123" UCAST_PROC="90.10" ODEVZDANE_OBALKY="3123" PLATNE_HLASY="3118"
+                       PLATNE_HLASY_PROC="99.84"/>
+            </STAT>
+            <STAT ZKRATKA="DK" NAZEV="Dánsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="590"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="14"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="718"
+                       VYDANE_OBALKY="604" UCAST_PROC="84.12" ODEVZDANE_OBALKY="604" PLATNE_HLASY="604"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="EE" NAZEV="Estonsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="83"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="93"
+                       VYDANE_OBALKY="85" UCAST_PROC="91.40" ODEVZDANE_OBALKY="85" PLATNE_HLASY="85"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ES" NAZEV="Španělsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="496"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="10"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="577"
+                       VYDANE_OBALKY="506" UCAST_PROC="87.69" ODEVZDANE_OBALKY="506" PLATNE_HLASY="506"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="FI" NAZEV="Finsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="284"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="12"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="343"
+                       VYDANE_OBALKY="296" UCAST_PROC="86.30" ODEVZDANE_OBALKY="296" PLATNE_HLASY="296"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="FR" NAZEV="Francie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="874"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="42"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1156"
+                       VYDANE_OBALKY="919" UCAST_PROC="79.50" ODEVZDANE_OBALKY="919" PLATNE_HLASY="916"
+                       PLATNE_HLASY_PROC="99.67"/>
+            </STAT>
+            <STAT ZKRATKA="GB" NAZEV="Spojené království">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="2424"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="64"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="3053"
+                       VYDANE_OBALKY="2495" UCAST_PROC="81.72" ODEVZDANE_OBALKY="2492" PLATNE_HLASY="2488"
+                       PLATNE_HLASY_PROC="99.84"/>
+            </STAT>
+            <STAT ZKRATKA="GR" NAZEV="Řecko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="125"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="11"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="145"
+                       VYDANE_OBALKY="136" UCAST_PROC="93.79" ODEVZDANE_OBALKY="136" PLATNE_HLASY="136"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="HR" NAZEV="Chorvatsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="65"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="9"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="80"
+                       VYDANE_OBALKY="74" UCAST_PROC="92.50" ODEVZDANE_OBALKY="74" PLATNE_HLASY="74"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="HU" NAZEV="Maďarsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="301"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="39"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="359"
+                       VYDANE_OBALKY="342" UCAST_PROC="95.26" ODEVZDANE_OBALKY="342" PLATNE_HLASY="340"
+                       PLATNE_HLASY_PROC="99.42"/>
+            </STAT>
+            <STAT ZKRATKA="IE" NAZEV="Irsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="525"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="17"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="634"
+                       VYDANE_OBALKY="543" UCAST_PROC="85.65" ODEVZDANE_OBALKY="543" PLATNE_HLASY="542"
+                       PLATNE_HLASY_PROC="99.82"/>
+            </STAT>
+            <STAT ZKRATKA="IT" NAZEV="Itálie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="756"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="38"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="908"
+                       VYDANE_OBALKY="797" UCAST_PROC="87.78" ODEVZDANE_OBALKY="797" PLATNE_HLASY="794"
+                       PLATNE_HLASY_PROC="99.62"/>
+            </STAT>
+            <STAT ZKRATKA="KO" NAZEV="Republika Kosovo">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="22"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="10"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="36"
+                       VYDANE_OBALKY="32" UCAST_PROC="88.89" ODEVZDANE_OBALKY="32" PLATNE_HLASY="32"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="LT" NAZEV="Litva">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="96"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="4"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="104"
+                       VYDANE_OBALKY="100" UCAST_PROC="96.15" ODEVZDANE_OBALKY="100" PLATNE_HLASY="100"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="LU" NAZEV="Lucembursko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="460"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="26"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="557"
+                       VYDANE_OBALKY="489" UCAST_PROC="87.79" ODEVZDANE_OBALKY="489" PLATNE_HLASY="486"
+                       PLATNE_HLASY_PROC="99.39"/>
+            </STAT>
+            <STAT ZKRATKA="LV" NAZEV="Lotyšsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="85"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="5"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="94"
+                       VYDANE_OBALKY="91" UCAST_PROC="96.81" ODEVZDANE_OBALKY="91" PLATNE_HLASY="90"
+                       PLATNE_HLASY_PROC="98.90"/>
+            </STAT>
+            <STAT ZKRATKA="MD" NAZEV="Moldavsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="23"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="27"
+                       VYDANE_OBALKY="26" UCAST_PROC="96.30" ODEVZDANE_OBALKY="26" PLATNE_HLASY="26"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="ME" NAZEV="Černá Hora">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="12"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="23"
+                       VYDANE_OBALKY="13" UCAST_PROC="56.52" ODEVZDANE_OBALKY="13" PLATNE_HLASY="13"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="MK" NAZEV="Severní Makedonie">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="13"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="6"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="20"
+                       VYDANE_OBALKY="20" UCAST_PROC="100.00" ODEVZDANE_OBALKY="20" PLATNE_HLASY="19"
+                       PLATNE_HLASY_PROC="95.00"/>
+            </STAT>
+            <STAT ZKRATKA="NL" NAZEV="Nizozemsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="977"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="26"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1085"
+                       VYDANE_OBALKY="1003" UCAST_PROC="92.44" ODEVZDANE_OBALKY="1003" PLATNE_HLASY="1003"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="NO" NAZEV="Norsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="296"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="19"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="376"
+                       VYDANE_OBALKY="316" UCAST_PROC="84.04" ODEVZDANE_OBALKY="316" PLATNE_HLASY="315"
+                       PLATNE_HLASY_PROC="99.68"/>
+            </STAT>
+            <STAT ZKRATKA="PL" NAZEV="Polsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="178"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="7"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="210"
+                       VYDANE_OBALKY="189" UCAST_PROC="90.00" ODEVZDANE_OBALKY="189" PLATNE_HLASY="185"
+                       PLATNE_HLASY_PROC="97.88"/>
+            </STAT>
+            <STAT ZKRATKA="PT" NAZEV="Portugalsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="286"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="7"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="318"
+                       VYDANE_OBALKY="293" UCAST_PROC="92.14" ODEVZDANE_OBALKY="293" PLATNE_HLASY="293"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="RO" NAZEV="Rumunsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="48"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="1"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="52"
+                       VYDANE_OBALKY="49" UCAST_PROC="94.23" ODEVZDANE_OBALKY="49" PLATNE_HLASY="49"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="RS" NAZEV="Srbsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="51"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="14"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="116"
+                       VYDANE_OBALKY="67" UCAST_PROC="57.76" ODEVZDANE_OBALKY="67" PLATNE_HLASY="65"
+                       PLATNE_HLASY_PROC="97.01"/>
+            </STAT>
+            <STAT ZKRATKA="RU" NAZEV="Rusko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="17"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="17"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="64"
+                       VYDANE_OBALKY="35" UCAST_PROC="54.69" ODEVZDANE_OBALKY="35" PLATNE_HLASY="34"
+                       PLATNE_HLASY_PROC="97.14"/>
+            </STAT>
+            <STAT ZKRATKA="SE" NAZEV="Švédsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="403"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="12"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="506"
+                       VYDANE_OBALKY="415" UCAST_PROC="82.02" ODEVZDANE_OBALKY="415" PLATNE_HLASY="415"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SI" NAZEV="Slovinsko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="272"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="8"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="290"
+                       VYDANE_OBALKY="280" UCAST_PROC="96.55" ODEVZDANE_OBALKY="280" PLATNE_HLASY="280"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <STAT ZKRATKA="SK" NAZEV="Slovensko">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="932"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="135"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="1519"
+                       VYDANE_OBALKY="1070" UCAST_PROC="70.44" ODEVZDANE_OBALKY="1070" PLATNE_HLASY="1067"
+                       PLATNE_HLASY_PROC="99.72"/>
+            </STAT>
+            <STAT ZKRATKA="UA" NAZEV="Ukrajina">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="61"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="2"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="2" OKRSKY_ZPRAC="2" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="85"
+                       VYDANE_OBALKY="64" UCAST_PROC="75.29" ODEVZDANE_OBALKY="64" PLATNE_HLASY="63"
+                       PLATNE_HLASY_PROC="98.44"/>
+            </STAT>
+            <STAT ZKRATKA="VA" NAZEV="Svatý stolec">
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="94"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="3"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="1" OKRSKY_ZPRAC="1" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="97"
+                       VYDANE_OBALKY="97" UCAST_PROC="100.00" ODEVZDANE_OBALKY="97" PLATNE_HLASY="97"
+                       PLATNE_HLASY_PROC="100.00"/>
+            </STAT>
+            <CELKEM>
+                <HODN_KAND PORADOVE_CISLO="4" HLASY="17844"/>
+                <HODN_KAND PORADOVE_CISLO="7" HLASY="814"/>
+                <UCAST KOLO="2" OKRSKY_CELKEM="46" OKRSKY_ZPRAC="46" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="21934"
+                       VYDANE_OBALKY="18710" UCAST_PROC="85.30" ODEVZDANE_OBALKY="18705" PLATNE_HLASY="18658"
+                       PLATNE_HLASY_PROC="99.75"/>
+            </CELKEM>
+        </KONTINENT>
+        <CELKEM>
+            <HODN_KAND PORADOVE_CISLO="4" HLASY="21835"/>
+            <HODN_KAND PORADOVE_CISLO="7" HLASY="1097"/>
+            <UCAST KOLO="2" OKRSKY_CELKEM="110" OKRSKY_ZPRAC="110" OKRSKY_ZPRAC_PROC="100.00" ZAPSANI_VOLICI="28657"
+                   VYDANE_OBALKY="23003" UCAST_PROC="80.27" ODEVZDANE_OBALKY="22996" PLATNE_HLASY="22932"
+                   PLATNE_HLASY_PROC="99.72"/>
+        </CELKEM>
+    </ZAHRANICI>
+</VYSLEDKY_ZAHRANICI>

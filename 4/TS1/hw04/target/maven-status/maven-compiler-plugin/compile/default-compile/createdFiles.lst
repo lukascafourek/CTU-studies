@@ -1,0 +1,11 @@
+cz/cvut/fel/ts1/shop/Order.class
+cz/cvut/fel/ts1/archive/PurchasesArchive.class
+cz/cvut/fel/ts1/shop/ShoppingCart.class
+cz/cvut/fel/ts1/storage/ItemStock.class
+cz/cvut/fel/ts1/archive/ItemPurchaseArchiveEntry.class
+cz/cvut/fel/ts1/shop/EShopController.class
+cz/cvut/fel/ts1/storage/NoItemInStorage.class
+cz/cvut/fel/ts1/shop/StandardItem.class
+cz/cvut/fel/ts1/shop/DiscountedItem.class
+cz/cvut/fel/ts1/shop/Item.class
+cz/cvut/fel/ts1/storage/Storage.class

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -fno-tree-vectorize CMakeFiles/07_3normal_distribution.dir/src/3normal_distribution.cpp.o  -o 07_3normal_distribution 

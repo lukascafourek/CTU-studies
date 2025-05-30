@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -fno-tree-vectorize CMakeFiles/07_5matrix.dir/src/5matrix.cpp.o  -o 07_5matrix  /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

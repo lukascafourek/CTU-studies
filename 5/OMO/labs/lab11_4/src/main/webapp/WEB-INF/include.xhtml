@@ -1,0 +1,60 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:outputStylesheet library="css" name="loginbar.css"  />
+    <f:loadBundle basename="cz.cvut.fel.system.pres.inter.system" var="msg" />
+
+        <div class="loginBar">
+            <div class="applicationName"><h:graphicImage value="/resources/images/logo.png" style="vertical-align:middle"/>
+                <h:outputText value="#{msg['system.title']}" /></div>
+            <h:panelGroup rendered="#{loginBB.role=='ROLE_ADMIN'}"> 
+                <div>
+                    <h:link outcome="/admin/createUserAdmin" value="#{msg['create.admin.user']}"/><h:outputText value="  |  "/>
+                    <h:link outcome="/admin/createUserAdvisoryBoardMember" value="#{msg['create.advisoryBoardMember.user']}"/><h:outputText value="  |  "/>
+                    <h:link outcome="/admin/createUserAuthor" value="#{msg['create.author.user']}"/><h:outputText value="  |  "/>
+                    <h:link outcome="/admin/createUserCorrector" value="#{msg['create.corrector.user']}"/><h:outputText value="  |  "/>
+                    <h:link outcome="/index" value="#{msg['home.home']}"/><h:outputText value="  |  "/>
+
+                </div>
+            </h:panelGroup>
+            <h:panelGroup rendered="#{loginBB.role=='ROLE_AUTHOR'}"> 
+                <div>            
+                    <h:link outcome="/createArticle" value="#{msg['create.article']}"/><h:outputText value="  |  "/>
+                    <h:link outcome="/index" value="#{msg['list.onw.articles']}"/><h:outputText value="  |  "/>
+                </div>
+            </h:panelGroup>
+            <h:panelGroup rendered="#{loginBB.role=='ROLE_CORRECTOR'}"> 
+                <div>
+                    <h:link outcome="/index" value="#{msg['list.assigned.articles']}"/><h:outputText value="  |  "/>
+                </div>
+            </h:panelGroup>
+            <h:panelGroup rendered="#{loginBB.role=='ROLE_BOARD_MEMBER'}"> 
+                <div>
+                    <h:link outcome="/index" value="#{msg['list.articles']}"/><h:outputText value="  |  "/>
+                </div>
+            </h:panelGroup>
+            <h:panelGroup rendered="#{loginBB.role=='ROLE_AUTHENTICATED'}"> <div></div></h:panelGroup>
+
+            <div class="loggedInUser">#{msg['logged.user']} #{loginBB.username}</div>
+            <div class="language"><h:outputText value="#{msg['lang.choose']}" />
+
+                <h:form>
+                    <h:commandLink action="#{loginBB.changeLang('cs')}" immediate="true" value="">
+                        <h:graphicImage value="/resources/images/cz.png" style="vertical-align:middle"/>
+                    </h:commandLink>
+                    <h:commandLink action="#{loginBB.changeLang('en')}" immediate="true" value="">
+                        <h:graphicImage value="/resources/images/en.png" style="vertical-align:middle"/>
+                    </h:commandLink>
+                </h:form>
+            </div>
+            <div class="logout">
+                <h:outputLink value="${request.contextPath}/static/j_spring_security_logout">
+                    <h:graphicImage value="/resources/images/logout.png" style="vertical-align:middle"/>logout
+                </h:outputLink>
+            </div>
+
+        </div>
+
+</ui:composition>

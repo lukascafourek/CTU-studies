@@ -1,0 +1,43 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:outputStylesheet library="css" name="loginbar.css"  />
+
+    <div class="loginBar">
+        <h:panelGroup rendered="#{loginBB.role=='ROLE_ADMIN'}"> 
+            <div>
+                <h:link outcome="admin/createUserAdmin" value="Create Admin User"/><h:outputText value="  |  "/>
+                <h:link outcome="admin/createUserAdvisoryBoardMember" value="Create AdvisoryBoardMember User"/><h:outputText value="  |  "/>
+                <h:link outcome="admin/createUserAuthor" value="Create Author User"/><h:outputText value="  |  "/>
+                <h:link outcome="admin/createUserCorrector" value="Create Corrector User"/><h:outputText value="  |  "/>
+            </div>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{loginBB.role=='ROLE_AUTHOR'}"> 
+            <div>            
+                <h:link outcome="createArticle" value="Create Article"/><h:outputText value="  |  "/>
+                <h:link outcome="listArticles" value="List own Articles"/><h:outputText value="  |  "/>
+            </div>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{loginBB.role=='ROLE_CORRECTOR'}"> 
+            <div>
+                <h:link outcome="listArticles" value="List of assigned rticles"/><h:outputText value="  |  "/>
+            </div>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{loginBB.role=='ROLE_BOARD_MEMBER'}"> 
+            <div>
+                <h:link outcome="listArticles" value="List of articles"/><h:outputText value="  |  "/>
+            </div>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{loginBB.role=='ROLE_AUTHENTICATED'}"> <div></div></h:panelGroup>
+        
+        <div class="loggedInUser">Přihlášený uživatel: #{loginBB.username}</div>
+        <div class="logout">
+            <h:outputLink value="${request.contextPath}/static/j_spring_security_logout">
+                <h:graphicImage value="resources/images/logout.png" style="vertical-align:middle"/>logout
+            </h:outputLink>
+        </div>
+
+    </div>
+</ui:composition>

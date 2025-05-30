@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+    <h:head>
+        <title>#{msg['article']}: #{articleDetailBB.name}</title>
+    </h:head>
+    <h:body>
+        <ui:include src="/WEB-INF/include.xhtml" />
+         <h1><h:outputText value="Edit Authors" /></h1>
+         <div>#{msg['article']}: #{editAuthorsBB.name}</div>
+
+        <div class="editAuthorsBody">
+
+            <div class="authorsTable">
+                #{msg['authors']}:
+                <c:if test="#{editAuthorsBB.authorDtos.rowAvailable}">
+                    <h:dataTable style="border:1px gray solid;" value="#{editAuthorsBB.authorDtos}" var="item" >
+                        <h:column>
+                            #{item.firstname} #{item.lastname}
+                        </h:column>
+                        <h:column>
+                            <c:if test="${loginBB.role=='ROLE_AUTHOR' or loginBB.role=='ROLE_BOARD_MEMBER'}">
+                                <h:form id="delete">
+                                    <h:commandButton value="Remove author" action="#{editAuthorsBB.deleteAuthor}" >
+                                        <f:param name="articleId" value="#{editAuthorsBB.articleId}"/>
+                                    </h:commandButton>
+                                </h:form>
+                            </c:if>
+                        </h:column>
+                    </h:dataTable>
+                </c:if>
+                <c:if test="#{not articleDetailBB.versionDtos.rowAvailable}">
+                    <br/>
+                    #{msg['noAuthors']}
+                    <br/>
+
+                </c:if>
+
+                <c:if test="${loginBB.role=='ROLE_AUTHOR' or loginBB.role=='ROLE_BOARD_MEMBER'}">
+                    <h:form id="add">
+                        <h:selectOneMenu id="allAuthors"  required="true"  value="#{editAuthorsBB.selectedAuthorId}"> 
+                            <f:selectItem itemValue="none" itemLabel="Choose Author" />
+                            <f:selectItems value="#{editAuthorsBB.allAuthors}"/>
+                        </h:selectOneMenu>
+                        <h:commandButton value="Add author" action="#{editAuthorsBB.submit}" >
+                            <f:param name="articleId" value="#{editAuthorsBB.articleId}"/>
+                        </h:commandButton>
+
+
+                    </h:form>
+                </c:if>
+
+
+
+            </div>
+            <br/>
+            <h:link value="Back to article" outcome="/detailArticle">
+                <f:param name="articleId" value="#{editAuthorsBB.articleId}">
+                </f:param>
+            </h:link>
+
+        </div>
+
+    </h:body>
+</html>

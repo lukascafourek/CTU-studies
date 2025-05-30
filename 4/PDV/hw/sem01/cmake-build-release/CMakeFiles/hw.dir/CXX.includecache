@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lukas/Documents/PDV/hw/sem01/src/iddfs.cpp
+unordered_set
+-
+atomic
+-
+limits
+-
+omp.h
+-
+iddfs.h
+/mnt/c/Users/lukas/Documents/PDV/hw/sem01/src/iddfs.h
+
+/mnt/c/Users/lukas/Documents/PDV/hw/sem01/src/iddfs.h
+state.h
+/mnt/c/Users/lukas/Documents/PDV/hw/sem01/src/state.h
+
+/mnt/c/Users/lukas/Documents/PDV/hw/sem01/src/state.h
+vector
+-
+memory
+-
+

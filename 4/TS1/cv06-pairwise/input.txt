@@ -1,0 +1,4 @@
+registration	fullname	destination	birthdate	discount
+yes	null	eu	dd.mm.yyyy	student
+no	chars	not-eu	mm/dd/yyyy	senior
+	special-chars		yyyy-mm-dd	coupon

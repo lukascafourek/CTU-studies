@@ -1,0 +1,60 @@
+Bez cache:
+program cache: 	memory reads - 822
+
+data cache:	memory reads - 134
+		memory writes - 28
+		memory stall cycles - 1458
+
+Cache 4 1 1:
+program cache:	hit - 140
+		miss - 682
+		memory reads - 682
+		improved speed - 108 %
+
+data cache:	hit - 37
+		miss - 125
+		memory reads - 120
+		memory writes - 28
+		memory stall cycles - 1457
+		improved speed - 100 %
+
+Cache 1 1 4:
+program cache:	hit - 0
+		miss - 822
+		memory reads - 822
+		improved speed - 91 %
+
+data cache:	hit - 31
+		miss - 131
+		memory reads - 124
+		memory writes - 28
+		memory stall cycles - 1499
+		improved speed - 98 %
+
+Cache 2 1 2:
+program cache:	hit - 0
+		miss - 822
+		memory reads - 822
+		improved speed - 91 %
+
+data cache:	hit - 33
+		miss - 129
+		memory reads - 122
+		memory writes - 28
+		memory stall cycles - 1479
+		improved speed - 99 %
+
+Cache 16 1 1:
+program cache:	hit - 744
+		miss - 78
+		memory reads - 78
+		improved speed - 513 %
+
+data cache:	hit - 146
+		miss - 16
+		memory reads - 16
+		memory writes - 28
+		memory stall cycles - 412
+		improved speed - 282 %
+
+Nejlepší výsledky hit rate pro program cache 1 8 1 a data cache 2 4 1

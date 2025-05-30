@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw03/src/bst_tree.h
+cstdint
+-
+atomic
+-
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw03/src/main.cpp
+tests.h
+/mnt/c/Users/lukas/Documents/PDV/hw/hw03/src/tests.h
+cstddef
+-
+cstdio
+-
+chrono
+-
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw03/src/tests.h
+bst_tree.h
+/mnt/c/Users/lukas/Documents/PDV/hw/hw03/src/bst_tree.h
+vector
+-
+numeric
+-
+algorithm
+-
+functional
+-
+cstdlib
+-
+cstdint
+-
+random
+-
+

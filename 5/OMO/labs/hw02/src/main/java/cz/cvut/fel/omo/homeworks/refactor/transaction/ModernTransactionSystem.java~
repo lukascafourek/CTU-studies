@@ -1,0 +1,52 @@
+package cz.cvut.fel.omo.homeworks.refactor.transaction;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import cz.cvut.fel.omo.homeworks.common.client.ModernPaymentClient;
+import cz.cvut.fel.omo.homeworks.common.model.ModernTransaction;
+import java.util.Optional;
+import java.util.UUID;
+
+public class ModernTransactionSystem extends AbstractTransactionSystem {
+
+    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final String surl;
+    private final String furl;
+    private final ModernPaymentClient modernPaymentClient = new ModernPaymentClient();
+
+    public ModernTransactionSystem(Long totalAmount, String currencyCode, String surl, String furl) {
+        super(totalAmount, currencyCode);
+        this.surl = surl;
+        this.furl = furl;
+    }
+
+    @Override
+    public Optional<String> execute(String transaction) {
+        if (transaction == null) {
+            return Optional.empty();
+        }
+
+        // This only simulates the client
+
+        String uuid = modernPaymentClient.execute(transaction);
+        return Optional.of(uuid);
+    }
+
+    @Override
+    public Optional<String> buildTransaction() {
+        if (currencyCode == null || totalAmount == null || surl == null || furl == null) {
+            return Optional.empty();
+        }
+        try {
+            String transactionJson = objectMapper.writeValueAsString(new ModernTransaction()
+                    .withExtOrderId(String.valueOf(UUID.randomUUID()))
+                    .withTotalAmount(totalAmount)
+                    .withCurrencyCode(currencyCode)
+                    .withSurl(surl)
+                    .withFurl(furl));
+            return Optional.of(transactionJson);
+        } catch (JsonProcessingException e) {
+            return Optional.empty();
+        }
+    }
+}

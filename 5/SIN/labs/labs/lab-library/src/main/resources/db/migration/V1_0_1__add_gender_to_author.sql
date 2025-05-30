@@ -1,0 +1,1 @@
+alter table author add column gender varchar(10) not null default('FEMALE');

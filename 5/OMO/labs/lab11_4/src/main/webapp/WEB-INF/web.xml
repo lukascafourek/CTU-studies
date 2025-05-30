@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <!-- ================= SPRING FRAMEWORK - START ================= -->
+    
+    <context-param>
+        <description>Springove konfiguracni soubory teto aplikace</description>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+            /WEB-INF/context/*.xml
+        </param-value>
+    </context-param>
+    <listener>
+        <description>Nahodi Spring context po startu serveru</description>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+    <listener>
+        <description>Asociuje requesty s prislusnym vlaknem dotazu (slouzi predevsim jako podpora web frameworku)</description>
+        <listener-class>
+            org.springframework.web.context.request.RequestContextListener
+        </listener-class>
+    </listener>  
+    <!-- ================= SPRING FRAMEWORK - END ================= -->             
+             
+             
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+       
+    <!--JSF servlet mapping-->
+    <!--JSF servlet configuration and servlet mappings-->
+    <servlet>
+        <servlet-name>Faces Servlet</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>*.jsf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>*.xhtml</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.xhtml</welcome-file>
+    </welcome-file-list> 
+    
+    
+    <!-- Enable Spring Filter, Spring Security works on the concept of Filters -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>
+            org.springframework.web.filter.DelegatingFilterProxy
+        </filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>  
+    
+    <!--Podpora pro primefaces fileupload-->
+    <filter>
+        <filter-name>PrimeFaces FileUpload Filter</filter-name>
+        <filter-class>org.primefaces.webapp.filter.FileUploadFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PrimeFaces FileUpload Filter</filter-name>
+        <servlet-name>Faces Servlet</servlet-name>
+    </filter-mapping> 
+    
+    <filter>
+        <filter-name>SetCharacterEncoding</filter-name>  
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>  
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ignore</param-name>  
+            <param-value>false</param-value>  
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>SetCharacterEncoding</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>
+
+    
+</web-app>

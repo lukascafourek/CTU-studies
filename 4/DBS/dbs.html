@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Relační schéma databáze knihovny</title>
+	<style>
+		.tab {
+			margin-left: 40px;
+		}
+		.underlineLight {
+			border-bottom: 1px solid black;
+			position: relative;
+		}
+		.underline {
+			border-bottom: 2px solid black;
+			position: relative;
+		}
+		.underline2 {
+			position: relative;
+		}
+		.underline2::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -4px;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+		.underline3 {
+			position: relative;
+		}
+		.underline3::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -6px;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+		.triple-underline {
+			border-bottom: 2px solid black;
+			position: relative;
+		}
+		.triple-underline::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -4px;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+		.triple-underline::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -6px;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<h1>Relační schéma databáze knihovny</h1>
+
+	<p>Kniha(<span class="underline">ISBN</span>, <span class="underlineLight">název, vydavatel, rok vydání</span>, <span class="underline">URL</span>)</p>
+
+	<p>Autor(<span class="underline">ISBN, jméno</span>)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+
+	<p>Anotace(<span class="underline">ISBN</span>, anotace)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+
+	<p>Žánr(<span class="underline">název</span>)</p>
+
+	<p>Náleží_žánru(<span class="underline">ISBN, název</span>)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+	<p class="tab">FK: (název) ⊆ Žánr(název)</p>
+
+	<p>Je_nadžánr(<span class="underline">název</span>, nadžánr)</p>
+	<p class="tab">FK: (název) ⊆ Žánr(název)</p>
+	<p class="tab">FK: (nadžánr) ⊆ Žánr(název)</p>
+
+	<p>Exemplář(<span class="underline">číslo, ISBN</span>)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+
+	<p>Uživatel(<span class="underline">login</span>, heslo)</p>
+
+	<p>Osobní_údaje(<span class="underlineLight">jméno, příjmení, narozen</span>, <span class="underline">login</span>, obec, č.p., ulice)</p>
+	<p class="tab">FK: (login) ⊆ Uživatel(login)</p>
+
+	<p>Zaměstnanec(<span class="underline">login</span>, <span class="underline">rodné číslo</span>, interní telefon, místnost)</p>
+	<p class="tab">FK: (login) ⊆ Uživatel(login)</p>
+
+	<p>Je_nadřízený(<span class="underline">zaměstnanec</span>, nadřízený)</p>
+	<p class="tab">FK: (zaměstnanec) ⊆ Zaměstnanec(login)</p>
+	<p class="tab">FK: (nadřízený) ⊆ Zaměstnanec(login)</p>
+
+	<p>Zákazník(<span class="underline">login</span>, zaměstnanec, čas)</p>
+	<p class="tab">FK: (login) ⊆ Uživatel(login)</p>
+	<p class="tab">FK: (zaměstnanec) ⊆ Zaměstnanec(login)</p>
+
+	<p>Sledující(<span class="underline">login, sledující</span>)</p>
+	<p class="tab">FK: (login) ⊆ Zákazník(login)</p>
+	<p class="tab">FK: (sledující) ⊆ Zákazník(login)</p>
+
+	<p>Doporučil(<span class="underlineLight">zákazník, doporučený</span>)</p>
+	<p class="tab">FK: (zákazník) ⊆ Zákazník(login)</p>
+	<p class="tab">FK: (doporučený) ⊆ Zákazník(login)</p>
+
+	<p>Členský_příspěvek(<span class="underline">login, rok</span>, od, do, výše)</p>
+	<p class="tab">FK: (login) ⊆ Zákazník(login)</p>
+
+	<p>Rezervuje(<span class="underline">login, ISBN</span>)</p>
+	<p class="tab">FK: (login) ⊆ Zákazník(login)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+
+	<p>Komentář(<span class="underline">název, vydán</span>, obsah, login, ISBN)</p>
+	<p class="tab">FK: (login) ⊆ Zákazník(login)</p>
+	<p class="tab">FK: (ISBN) ⊆ Kniha(ISBN)</p>
+
+	<p>Operace(<span class="underline">ISBN, číslo, </span><span class="triple-underline">čas</span><span class="underline2">, login</span>, <span class="underline3">zaměstnanec</span>)</p>
+	<p class="tab">FK: (login) ⊆ Zákazník(login)</p>
+	<p class="tab">FK: (ISBN, číslo) ⊆ Exemplář(ISBN, číslo)</p>
+	<p class="tab">FK: (zaměstnanec) ⊆ Zaměstnanec(login)</p>
+
+	<p>Výpůjčka(<span class="underline">login, čas</span>, do, cena / den, pokuta / den)</p>
+	<p class="tab">FK: (login, čas) ⊆ Operace(login, čas)</p>
+
+	<p>Vrácení(<span class="underline">login, čas</span>, stav)</p>
+	<p class="tab">FK: (login, čas) ⊆ Operace(login, čas)</p>
+
+</body>
+
+</html>

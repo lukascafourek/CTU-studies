@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title><h:outputText value="#{msg['create.article.title']}" /></title>
+    </h:head>
+    <h:body>
+        <ui:include src="/WEB-INF/include.xhtml" />
+        
+        <h1><h:outputText value="#{msg['create.article.title']}" /></h1>
+        <h:form enctype="multipart/form-data">
+            <h:outputText value="#{msg['create.article.name']}" /> <h:inputText value="#{articleBB.name}"/><br/>
+            <h:outputText value="#{msg['create.article.priority']}" /> <h:selectBooleanCheckbox value="#{articleBB.priority}"/> <br/>
+
+            <p:messages showDetail="true"/>  
+            <p:fileUpload value="#{articleBB.file}" mode="simple"/> 
+            <br/><br/>
+
+            <h:commandButton value="#{msg['create.article.create']}" action="#{articleBB.saveArticle()}"/>
+            <br/>
+            <h:messages showDetail="true"/>
+            <p:messages autoUpdate="true" />
+        </h:form>
+
+
+
+    </h:body>
+</html>
+

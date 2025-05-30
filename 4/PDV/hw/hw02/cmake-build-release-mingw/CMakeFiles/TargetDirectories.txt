@@ -1,0 +1,3 @@
+C:/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release-mingw/CMakeFiles/hw.dir
+C:/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/lukas/Documents/PDV/hw/hw02/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir

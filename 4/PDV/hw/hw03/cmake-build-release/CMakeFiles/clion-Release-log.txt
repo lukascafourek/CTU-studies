@@ -1,0 +1,4 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec "/mnt/c/Program Files/JetBrains/CLion 2023.3.4/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/lukas/Documents/PDV/hw/hw03/cmake-build-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/lukas/Documents/PDV/hw/hw03 -B /mnt/c/Users/lukas/Documents/PDV/hw/hw03/cmake-build-release"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/lukas/Documents/PDV/hw/hw03/cmake-build-release

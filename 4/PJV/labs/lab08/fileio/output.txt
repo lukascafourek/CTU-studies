@@ -1,0 +1,10 @@
+0Tady je nekolik mezer     Tady pak bude tabelator				. Tady je dalsi radek
+1
+2
+3
+4Tady je paty radek.
+5			Radek zacina tabelatory.
+6			
+7			
+8			
+9			<Konec

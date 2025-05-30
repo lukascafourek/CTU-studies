@@ -1,0 +1,23 @@
+hazelcast:
+  instance-name: hazelcast-instance
+  network:
+    port:
+      port: 5701
+      auto-increment: true
+    join:
+      tcp-ip:
+        enabled: false
+      multicast:
+        enabled: true
+      kubernetes:
+        enabled: false
+  map:
+    default:
+      time-to-live-seconds: 3600
+      max-idle-seconds: 1800
+    cacheA:
+      time-to-live-seconds: 300
+      max-idle-seconds: 900
+    cacheB:
+      time-to-live-seconds: 600
+      max-idle-seconds: 1200

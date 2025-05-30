@@ -1,0 +1,13 @@
+data = load('mzdy.txt', '-ascii');
+t = data(:,1);
+M = data(:,2);
+x_wages = fit_wages(t, M);
+disp(x_wages);
+pred_wage = quarter2_2009(x_wages);
+disp(pred_wage);
+data = load('teplota.txt', '-ascii');
+t = data(:,1);
+T = data(:,2);
+omega = 2 * pi / 365;
+x_temps = fit_temps(t, T, omega);
+disp(x_temps);

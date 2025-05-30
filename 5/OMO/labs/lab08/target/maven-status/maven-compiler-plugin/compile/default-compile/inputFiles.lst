@@ -1,0 +1,11 @@
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/ExpressionExample.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/Concatenate.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/Context.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/IntList.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/ListExpression.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/Remove.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/Unique.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/expressions/VarList.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/visitors/ListExpressionVisitor.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/visitors/PrintListExpressionVisitor.java
+/Users/lukascafourek/Documents/CVUT/CTU-studies/5/OMO/labs/lab08/src/main/java/cz/cvut/fel/omo/cv8/visitors/SimplifyListExpressionVisitor.java

@@ -1,0 +1,12 @@
+cvut.fel
+cvut.fel.config
+cvut.fel.controller
+cvut.fel.controller.config
+cvut.fel.controller.interceptors
+cvut.fel.dto
+cvut.fel.dto.request
+cvut.fel.entity
+cvut.fel.exception
+cvut.fel.repository
+cvut.fel.service
+cvut.fel.utils

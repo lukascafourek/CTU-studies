@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+    <h:head>
+        <title>#{msg['article']}: #{articleDetailBB.name}</title>
+    </h:head>
+    <h:body>
+        <ui:include src="/WEB-INF/include.xhtml" />
+        <div class="articleDetailBody">
+            <h1>#{articleDetailBB.name}</h1>
+            <div class="authors">
+
+                Authors: #{articleDetailBB.authors}
+                <br/>
+                <h:link value="Edit authors" outcome="/editAuthors">
+                    <f:param name="articleId" value="#{articleDetailBB.articleId}">
+                    </f:param>
+                </h:link>  
+                <br/>
+                <br/>
+            </div>
+            <span class="message1">#{articleDetailBB.message}</span>
+            <c:if test="${loginBB.role=='ROLE_CORRECTOR' and not(articleDetailBB.checked)}">
+                <h:form>
+                    <h:commandLink action="#{articleDetailBB.markAsCorrected}" value="#{msg['markAsCorrected']}" >
+                        <f:param name="articleId" value="#{articleDetailBB.articleId}"/>
+                    </h:commandLink>
+                </h:form>
+                <br/>
+            </c:if>
+
+            <div class="versions">
+                #{msg['versions']}:
+                <c:if test="#{articleDetailBB.versionDtos.rowAvailable}">
+                    <h:dataTable style="border:1px gray solid;" value="#{articleDetailBB.versionDtos}" var="item" >
+                        <h:column>
+                            <h:outputLink value="#{request.contextPath}/resources/files/#{item.pathOfFile}">
+                                #{item.datetime.toString()}
+                            </h:outputLink>
+                        </h:column>
+                        <h:column>
+                            <c:if test="${loginBB.role=='ROLE_AUTHOR'}">
+                                <h:form>
+                                    <h:commandButton value="Delete version" action="#{articleDetailBB.deleteVersion}" >
+                                        <f:param name="articleId" value="#{articleDetailBB.articleId}"/>
+                                    </h:commandButton>
+                                </h:form>
+                            </c:if>
+                        </h:column>
+                    </h:dataTable>
+                </c:if>
+                <c:if test="#{not articleDetailBB.versionDtos.rowAvailable}">
+                    <br/>
+                    #{msg['noVersions']}
+                    <br/>
+
+                </c:if>
+
+                <c:if test="${loginBB.role=='ROLE_AUTHOR'}">
+                    <h:link outcome="/addArticleVersion" value="#{msg['addArticleVersion']}">
+                        <f:param name="articleId" value="#{articleDetailBB.articleId}"></f:param>
+                    </h:link>
+                </c:if>
+            </div>
+            <br/>
+            <div class="annotatios">
+                #{msg['annotations']}:<br/>
+                <c:if test="${articleDetailBB.annotationDtos != null and articleDetailBB.annotationDtos.size() > 0}">
+                    <h:dataTable style="border:1px gray solid;" value="#{articleDetailBB.annotationDtos}" var="item" >
+                        <h:column>
+                            #{articleDetailBB.getAuthorNameById(item.authorOfAnnotationId)}
+                        </h:column>
+                        <h:column>
+                            #{item.annotation.toString()}
+                        </h:column>
+                    </h:dataTable>
+                </c:if>
+                <c:if test="${not (articleDetailBB.annotationDtos != null and articleDetailBB.annotationDtos.size() > 0)}">
+                    #{msg['noAnnotations']}
+                </c:if>
+
+                <c:if test="${loginBB.role=='ROLE_AUTHOR' or loginBB.role=='ROLE_BOARD_MEMBER' or loginBB.role=='ROLE_CORRECTOR'}">
+                    <br/>
+                    <h:link outcome="/addArticleAnnotation" value="#{msg['addArticleAnnotation']}">
+                        <f:param name="articleId" value="#{articleDetailBB.articleId}"></f:param>
+                    </h:link>
+                </c:if>
+            </div>
+
+
+
+        </div>
+    </h:body>
+</html>
+

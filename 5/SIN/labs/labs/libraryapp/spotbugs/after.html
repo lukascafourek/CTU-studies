@@ -1,0 +1,563 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.8.6.</p>
+      <p>Project: 
+			libraryapp[libraryapp]</p>
+      <h2>Metrics</h2>
+      <p>856 lines of code analyzed,
+	in 59 classes, 
+	in 12 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">NaN</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">31</td>
+            <td align="right">36.21</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>31</b>
+            </td>
+            <td align="right">
+               <b>36.21</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+            </td>
+            <td align="right">31</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>31</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Address.getCity() may expose internal representation by returning Address.city<br/>
+                  <br/>
+                  <br/>In file Address.java Address.java,
+					
+						line 34 34<br/>In class sin.library.libraryapp.model.Address<br/>In method sin.library.libraryapp.model.Address.getCity()<br/>Field sin.library.libraryapp.model.Address.city<br/>At Address.java:[line 34]<br/>At Address.java:[line 34]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.getAddress() may expose internal representation by returning Author.address<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 39 39<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.getAddress()<br/>Field sin.library.libraryapp.model.Author.address<br/>At Author.java:[line 39]<br/>At Author.java:[line 39]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.getBooks() may expose internal representation by returning Author.books<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 42 42<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.getBooks()<br/>Field sin.library.libraryapp.model.Author.books<br/>At Author.java:[line 42]<br/>At Author.java:[line 42]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.getPublishers() may expose internal representation by returning Author.publishers<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 45 45<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.getPublishers()<br/>Field sin.library.libraryapp.model.Author.publishers<br/>At Author.java:[line 45]<br/>At Author.java:[line 45]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.getAuthors() may expose internal representation by returning Book.authors<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 62 62<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.getAuthors()<br/>Field sin.library.libraryapp.model.Book.authors<br/>At Book.java:[line 62]<br/>At Book.java:[line 62]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.getGenre() may expose internal representation by returning Book.genre<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 49 49<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.getGenre()<br/>Field sin.library.libraryapp.model.Book.genre<br/>At Book.java:[line 49]<br/>At Book.java:[line 49]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.getLibrary() may expose internal representation by returning Book.library<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 54 54<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.getLibrary()<br/>Field sin.library.libraryapp.model.Book.library<br/>At Book.java:[line 54]<br/>At Book.java:[line 54]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.getPublisher() may expose internal representation by returning Book.publisher<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 44 44<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.getPublisher()<br/>Field sin.library.libraryapp.model.Book.publisher<br/>At Book.java:[line 44]<br/>At Book.java:[line 44]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.City.getAddresses() may expose internal representation by returning City.addresses<br/>
+                  <br/>
+                  <br/>In file City.java City.java,
+					
+						line 28 28<br/>In class sin.library.libraryapp.model.City<br/>In method sin.library.libraryapp.model.City.getAddresses()<br/>Field sin.library.libraryapp.model.City.addresses<br/>At City.java:[line 28]<br/>At City.java:[line 28]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Genre.getBooks() may expose internal representation by returning Genre.books<br/>
+                  <br/>
+                  <br/>In file Genre.java Genre.java,
+					
+						line 28 28<br/>In class sin.library.libraryapp.model.Genre<br/>In method sin.library.libraryapp.model.Genre.getBooks()<br/>Field sin.library.libraryapp.model.Genre.books<br/>At Genre.java:[line 28]<br/>At Genre.java:[line 28]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Library.getAddress() may expose internal representation by returning Library.address<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 29 29<br/>In class sin.library.libraryapp.model.Library<br/>In method sin.library.libraryapp.model.Library.getAddress()<br/>Field sin.library.libraryapp.model.Library.address<br/>At Library.java:[line 29]<br/>At Library.java:[line 29]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Library.getBooks() may expose internal representation by returning Library.books<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 32 32<br/>In class sin.library.libraryapp.model.Library<br/>In method sin.library.libraryapp.model.Library.getBooks()<br/>Field sin.library.libraryapp.model.Library.books<br/>At Library.java:[line 32]<br/>At Library.java:[line 32]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.getAddress() may expose internal representation by returning Publisher.address<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 29 29<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.getAddress()<br/>Field sin.library.libraryapp.model.Publisher.address<br/>At Publisher.java:[line 29]<br/>At Publisher.java:[line 29]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.getBooks() may expose internal representation by returning Publisher.books<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 40 40<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.getBooks()<br/>Field sin.library.libraryapp.model.Publisher.books<br/>At Publisher.java:[line 40]<br/>At Publisher.java:[line 40]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.getContracts() may expose internal representation by returning Publisher.contracts<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 37 37<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.getContracts()<br/>Field sin.library.libraryapp.model.Publisher.contracts<br/>At Publisher.java:[line 37]<br/>At Publisher.java:[line 37]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>new sin.library.libraryapp.controller.LibraryController(LibraryService) may expose internal representation by storing an externally mutable object into LibraryController.libraryService<br/>
+                  <br/>
+                  <br/>In file LibraryController.java LibraryController.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.controller.LibraryController<br/>In method new sin.library.libraryapp.controller.LibraryController(LibraryService)<br/>Field sin.library.libraryapp.controller.LibraryController.libraryService<br/>Local variable named libraryService<br/>At LibraryController.java:[line 13]<br/>At LibraryController.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Address.setCity(City) may expose internal representation by storing an externally mutable object into Address.city<br/>
+                  <br/>
+                  <br/>In file Address.java Address.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Address<br/>In method sin.library.libraryapp.model.Address.setCity(City)<br/>Field sin.library.libraryapp.model.Address.city<br/>Local variable named city<br/>At Address.java:[line 13]<br/>At Address.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.setAddress(Address) may expose internal representation by storing an externally mutable object into Author.address<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.setAddress(Address)<br/>Field sin.library.libraryapp.model.Author.address<br/>Local variable named address<br/>At Author.java:[line 13]<br/>At Author.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.setBooks(List) may expose internal representation by storing an externally mutable object into Author.books<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.setBooks(List)<br/>Field sin.library.libraryapp.model.Author.books<br/>Local variable named books<br/>At Author.java:[line 13]<br/>At Author.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Author.setPublishers(List) may expose internal representation by storing an externally mutable object into Author.publishers<br/>
+                  <br/>
+                  <br/>In file Author.java Author.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Author<br/>In method sin.library.libraryapp.model.Author.setPublishers(List)<br/>Field sin.library.libraryapp.model.Author.publishers<br/>Local variable named publishers<br/>At Author.java:[line 13]<br/>At Author.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.setAuthors(List) may expose internal representation by storing an externally mutable object into Book.authors<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 16 16<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.setAuthors(List)<br/>Field sin.library.libraryapp.model.Book.authors<br/>Local variable named authors<br/>At Book.java:[line 16]<br/>At Book.java:[line 16]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.setGenre(Genre) may expose internal representation by storing an externally mutable object into Book.genre<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 16 16<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.setGenre(Genre)<br/>Field sin.library.libraryapp.model.Book.genre<br/>Local variable named genre<br/>At Book.java:[line 16]<br/>At Book.java:[line 16]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.setLibrary(Library) may expose internal representation by storing an externally mutable object into Book.library<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 16 16<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.setLibrary(Library)<br/>Field sin.library.libraryapp.model.Book.library<br/>Local variable named library<br/>At Book.java:[line 16]<br/>At Book.java:[line 16]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Book.setPublisher(Publisher) may expose internal representation by storing an externally mutable object into Book.publisher<br/>
+                  <br/>
+                  <br/>In file Book.java Book.java,
+					
+						line 16 16<br/>In class sin.library.libraryapp.model.Book<br/>In method sin.library.libraryapp.model.Book.setPublisher(Publisher)<br/>Field sin.library.libraryapp.model.Book.publisher<br/>Local variable named publisher<br/>At Book.java:[line 16]<br/>At Book.java:[line 16]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.City.setAddresses(List) may expose internal representation by storing an externally mutable object into City.addresses<br/>
+                  <br/>
+                  <br/>In file City.java City.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.City<br/>In method sin.library.libraryapp.model.City.setAddresses(List)<br/>Field sin.library.libraryapp.model.City.addresses<br/>Local variable named addresses<br/>At City.java:[line 13]<br/>At City.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Genre.setBooks(List) may expose internal representation by storing an externally mutable object into Genre.books<br/>
+                  <br/>
+                  <br/>In file Genre.java Genre.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Genre<br/>In method sin.library.libraryapp.model.Genre.setBooks(List)<br/>Field sin.library.libraryapp.model.Genre.books<br/>Local variable named books<br/>At Genre.java:[line 13]<br/>At Genre.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Library.setAddress(Address) may expose internal representation by storing an externally mutable object into Library.address<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Library<br/>In method sin.library.libraryapp.model.Library.setAddress(Address)<br/>Field sin.library.libraryapp.model.Library.address<br/>Local variable named address<br/>At Library.java:[line 13]<br/>At Library.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Library.setBooks(List) may expose internal representation by storing an externally mutable object into Library.books<br/>
+                  <br/>
+                  <br/>In file Library.java Library.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Library<br/>In method sin.library.libraryapp.model.Library.setBooks(List)<br/>Field sin.library.libraryapp.model.Library.books<br/>Local variable named books<br/>At Library.java:[line 13]<br/>At Library.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.setAddress(Address) may expose internal representation by storing an externally mutable object into Publisher.address<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.setAddress(Address)<br/>Field sin.library.libraryapp.model.Publisher.address<br/>Local variable named address<br/>At Publisher.java:[line 13]<br/>At Publisher.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.setBooks(List) may expose internal representation by storing an externally mutable object into Publisher.books<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.setBooks(List)<br/>Field sin.library.libraryapp.model.Publisher.books<br/>Local variable named books<br/>At Publisher.java:[line 13]<br/>At Publisher.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>sin.library.libraryapp.model.Publisher.setContracts(List) may expose internal representation by storing an externally mutable object into Publisher.contracts<br/>
+                  <br/>
+                  <br/>In file Publisher.java Publisher.java,
+					
+						line 13 13<br/>In class sin.library.libraryapp.model.Publisher<br/>In method sin.library.libraryapp.model.Publisher.setContracts(List)<br/>Field sin.library.libraryapp.model.Publisher.contracts<br/>Local variable named contracts<br/>At Publisher.java:[line 13]<br/>At Publisher.java:[line 13]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+      </h2>
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+      </h2>
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>

@@ -1,0 +1,62 @@
+Cache 8 1 1:
+program cache:	hit - 17
+		miss - 15
+		hit rate - 53,125 %
+
+data cache:	hit - 4
+		miss - 8
+		hit rate - 33,333 %
+
+Cache 8 2 1:
+program cache:	hit - 23
+		miss - 9
+		hit rate - 71,875 %
+
+data cache:	hit - 9
+		miss - 3
+		hit rate - 75,000 %
+
+Cache 8 8 1:
+program cache:	hit - 29
+		miss - 3
+		hit rate - 90,625 %
+
+data cache:	hit - 10
+		miss - 2
+		hit rate - 83,333 %
+
+Cache 8 2 2:
+program cache:	hit - 23
+		miss - 9
+		hit rate - 71,875 %
+
+data cache:	hit - 9
+		miss - 3
+		hit rate - 75,000 %
+
+Cache 8 4 2:
+program cache:	hit - 27
+		miss - 5
+		hit rate - 84,375 %
+
+data cache:	hit - 10
+		miss - 2
+		hit rate - 83,333 %
+
+Cache 8 2 4:
+program cache:	hit - 23
+		miss - 9
+		hit rate - 71,875 %
+
+data cache:	hit - 9
+		miss - 3
+		hit rate - 75,000 %
+
+Cache 8 1 8:
+program cache:	hit - 17
+		miss - 15
+		hit rate - 53,125 %
+
+data cache:	hit - 8
+		miss - 4
+		hit rate - 66,667 %

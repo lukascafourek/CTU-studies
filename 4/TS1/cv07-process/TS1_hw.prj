@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project description="" id="1" linkage="" name="TS1_hw" version="">
+    <graphs>
+        <graph description="" id="7" linkage="" name="ts1_diagram" type="ACTIVITY_DIAGRAM" version="">
+            <node description="" height="25.0" id="2" name="START" priority="" style="STYLE_ACTIVITY_START" width="25.0" xpos="136.5" ypos="22.41796875"/>
+            <edge description="" id="4" name="1" priority="" source="2" target="3"/>
+            <node description="" height="40.0" id="3" name="A" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="129.0" ypos="97.41796875"/>
+            <edge description="" id="6" name="2" priority="" source="3" target="5"/>
+            <edge description="" id="11" name="5" priority="" source="3" target="10"/>
+            <node description="" height="40.0" id="5" name="B" priority="" style="STYLE_ACTIVITY_NODE" width="80.0" xpos="40.0" ypos="187.41796875"/>
+            <edge description="" id="8" name="3" priority="" source="5" target="7"/>
+            <node description="" height="40.0" id="7" name="C" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="75.0" ypos="277.41796875"/>
+            <edge description="" id="9" name="4" priority="" source="7" target="3"/>
+            <edge description="" id="12" name="6" priority="" source="7" target="10"/>
+            <node description="" height="40.0" id="10" name="D" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="100.0" ypos="367.41796875"/>
+            <edge description="" id="14" name="7" priority="" source="10" target="13"/>
+            <edge description="" id="17" name="9" priority="" source="10" target="16"/>
+            <node description="" height="40.0" id="13" name="E" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="75.0" ypos="457.41796875"/>
+            <edge description="" id="15" name="8" priority="" source="13" target="10"/>
+            <edge description="" id="18" name="10" priority="" source="13" target="16"/>
+            <node description="" height="40.0" id="16" name="F" priority="" style="STYLE_ACTIVITY_NODE" width="80.0" xpos="88.0" ypos="547.41796875"/>
+            <edge description="" id="20" name="11" priority="" source="16" target="19"/>
+            <node description="" height="40.0" id="19" name="G" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="124.0" ypos="637.41796875"/>
+            <edge description="" id="22" name="12" priority="" source="19" target="21"/>
+            <edge description="" id="26" name="14" priority="" source="19" target="25"/>
+            <node description="" height="40.0" id="21" name="H" priority="" style="STYLE_ACTIVITY_NODE" width="80.0" xpos="0.0" ypos="727.41796875"/>
+            <edge description="" id="24" name="13" priority="" source="21" target="23"/>
+            <node description="" height="35.0" id="23" name="END I" priority="" style="STYLE_ACTIVITY_END" width="35.0" xpos="22.5" ypos="844.8359375"/>
+            <node description="" height="40.0" id="25" name="J" priority="" style="STYLE_ACTIVITY_NODE" width="80.0" xpos="110.0" ypos="727.41796875"/>
+            <edge description="" id="28" name="15" priority="" source="25" target="27"/>
+            <node description="" height="40.0" id="27" name="K" priority="" style="STYLE_ACTIVITY_DECISION" width="40.0" xpos="163.0" ypos="829.876953125"/>
+            <edge description="" id="29" name="16" priority="" source="27" target="19"/>
+            <edge description="" id="31" name="17" priority="" source="27" target="30"/>
+            <node description="" height="35.0" id="30" name="END L" priority="" style="STYLE_ACTIVITY_END" width="35.0" xpos="165.5" ypos="959.75390625"/>
+            <test_case changed="false" combinations_data_rows="12" graph_id="7" name="Test situations 1, TDL= 1, ALG= PCT." note="" test_situations_data_rows="3">
+                <combinations_data_value col="0" selected_row="0">J</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">14
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">B</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">2
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">K</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">15
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">C</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">3
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">A</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">1
+4
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">H</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">12
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="6">G</combinations_data_value>
+                <combinations_data_value col="1" selected_row="6">11
+16
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="7">F</combinations_data_value>
+                <combinations_data_value col="1" selected_row="7">9
+10
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="8">D</combinations_data_value>
+                <combinations_data_value col="1" selected_row="8">5
+6
+8
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="9">E</combinations_data_value>
+                <combinations_data_value col="1" selected_row="9">7
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="10">END I</combinations_data_value>
+                <combinations_data_value col="1" selected_row="10">13
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="11">END L</combinations_data_value>
+                <combinations_data_value col="1" selected_row="11">17
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="18" name="10"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="31" name="17"/>
+                </test_situation_row>
+            </test_case>
+            <test_case changed="false" combinations_data_rows="10" graph_id="7" name="Test situations 2, TDL= 2, ALG= PCT." note="" test_situations_data_rows="6">
+                <combinations_data_value col="0" selected_row="0">J</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">14 - 15
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">B</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">2 - 3
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">K</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">15 - 16
+15 - 17
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">C</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">3 - 4
+3 - 6
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">A</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">1 - 2
+1 - 5
+4 - 2
+4 - 5
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">H</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">12 - 13
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="6">G</combinations_data_value>
+                <combinations_data_value col="1" selected_row="6">11 - 12
+11 - 14
+16 - 12
+16 - 14
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="7">F</combinations_data_value>
+                <combinations_data_value col="1" selected_row="7">9 - 11
+10 - 11
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="8">D</combinations_data_value>
+                <combinations_data_value col="1" selected_row="8">5 - 7
+5 - 9
+6 - 7
+6 - 9
+8 - 7
+8 - 9
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="9">E</combinations_data_value>
+                <combinations_data_value col="1" selected_row="9">7 - 8
+7 - 10
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="18" name="10"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="31" name="17"/>
+                </test_situation_row>
+            </test_case>
+            <test_case changed="false" combinations_data_rows="9" graph_id="7" name="Test situations 3, TDL= 3, ALG= PCT." note="" test_situations_data_rows="8">
+                <combinations_data_value col="0" selected_row="0">J</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">14 - 15 - 16
+14 - 15 - 17
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">B</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">2 - 3 - 4
+2 - 3 - 6
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">K</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">15 - 16 - 12
+15 - 16 - 14
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">C</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">3 - 4 - 2
+3 - 4 - 5
+3 - 6 - 7
+3 - 6 - 9
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">A</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">1 - 2 - 3
+1 - 5 - 7
+1 - 5 - 9
+4 - 2 - 3
+4 - 5 - 7
+4 - 5 - 9
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">G</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">11 - 12 - 13
+11 - 14 - 15
+16 - 12 - 13
+16 - 14 - 15
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="6">F</combinations_data_value>
+                <combinations_data_value col="1" selected_row="6">9 - 11 - 12
+9 - 11 - 14
+10 - 11 - 12
+10 - 11 - 14
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="7">D</combinations_data_value>
+                <combinations_data_value col="1" selected_row="7">5 - 7 - 8
+5 - 7 - 10
+5 - 9 - 11
+6 - 7 - 8
+6 - 7 - 10
+6 - 9 - 11
+8 - 7 - 8
+8 - 7 - 10
+8 - 9 - 11
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="8">E</combinations_data_value>
+                <combinations_data_value col="1" selected_row="8">7 - 8 - 7
+7 - 8 - 9
+7 - 10 - 11
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="18" name="10"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="18" name="10"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="29" name="16"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="14" name="7"/>
+                    <value edge_id="18" name="10"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="8" name="3"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="11" name="5"/>
+                    <value edge_id="17" name="9"/>
+                    <value edge_id="20" name="11"/>
+                    <value edge_id="26" name="14"/>
+                    <value edge_id="28" name="15"/>
+                    <value edge_id="31" name="17"/>
+                </test_situation_row>
+            </test_case>
+        </graph>
+        <graph description="" id="9" linkage="" name="ts1_graph" type="ORIENTED_GRAPH" version="">
+            <node description="" height="25.0" id="2" name="START" priority="" style="STYLE_START" width="70.0" xpos="45.0" ypos="0.0"/>
+            <edge description="" id="4" name="1" priority="" source="2" target="3"/>
+            <node description="" height="40.0" id="3" name="slevovy kupon" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="60.0" ypos="75.0"/>
+            <edge description="" id="6" name="2" priority="" source="3" target="5"/>
+            <edge description="" id="9" name="4" priority="" source="3" target="8"/>
+            <node description="" height="40.0" id="5" name="kontrola kuponu" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="26.0" ypos="165.0"/>
+            <edge description="" id="7" name="3" priority="" source="5" target="3"/>
+            <edge description="" id="10" name="5" priority="" source="5" target="8"/>
+            <node description="" height="40.0" id="8" name="sleva na vek" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="62.0" ypos="255.0"/>
+            <edge description="" id="12" name="6" priority="" source="8" target="11"/>
+            <edge description="" id="15" name="8" priority="" source="8" target="14"/>
+            <node description="" height="40.0" id="11" name="kontrola podminek" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="26.0" ypos="345.0"/>
+            <edge description="" id="13" name="7" priority="" source="11" target="8"/>
+            <edge description="" id="16" name="9" priority="" source="11" target="14"/>
+            <node description="" height="40.0" id="14" name="metoda platby" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="51.0" ypos="435.0"/>
+            <edge description="" id="19" name="10" priority="" source="14" target="18"/>
+            <edge description="" id="21" name="11" priority="" source="14" target="20"/>
+            <node description="" height="40.0" id="18" name="END 1" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="3.0" ypos="525.0"/>
+            <node description="" height="40.0" id="20" name="aplikace" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="76.0" ypos="525.0"/>
+            <edge description="" id="22" name="12" priority="" source="20" target="14"/>
+            <edge description="" id="24" name="13" priority="" source="20" target="23"/>
+            <node description="" height="40.0" id="23" name="END 2" priority="(not defined)" style="STYLE_NODE" width="40.0" xpos="76.0" ypos="615.0"/>
+            <test_case changed="false" combinations_data_rows="8" graph_id="9" name="Test situations 1, TDL= 1, ALG= PCT." note="" test_situations_data_rows="3">
+                <combinations_data_value col="0" selected_row="0">END 1</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">10
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">sleva na vek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">4
+5
+7
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">kontrola podminek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">6
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">metoda platby</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">8
+9
+12
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">slevovy kupon</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">1
+3
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">kontrola kuponu</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">2
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="6">END 2</combinations_data_value>
+                <combinations_data_value col="1" selected_row="6">13
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="7">aplikace</combinations_data_value>
+                <combinations_data_value col="1" selected_row="7">11
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+            </test_case>
+            <test_case changed="false" combinations_data_rows="6" graph_id="9" name="Test situations 2, TDL= 2, ALG= PCT." note="" test_situations_data_rows="6">
+                <combinations_data_value col="0" selected_row="0">slevovy kupon</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">1 - 2
+1 - 4
+3 - 2
+3 - 4
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">sleva na vek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">4 - 6
+4 - 8
+5 - 6
+5 - 8
+7 - 6
+7 - 8
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">kontrola podminek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">6 - 7
+6 - 9
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">kontrola kuponu</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">2 - 3
+2 - 5
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">metoda platby</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">8 - 10
+8 - 11
+9 - 10
+9 - 11
+12 - 10
+12 - 11
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">aplikace</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">11 - 12
+11 - 13
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+            </test_case>
+            <test_case changed="false" combinations_data_rows="6" graph_id="9" name="Test situations 3, TDL= 3, ALG= PCT." note="" test_situations_data_rows="12">
+                <combinations_data_value col="0" selected_row="0">slevovy kupon</combinations_data_value>
+                <combinations_data_value col="1" selected_row="0">1 - 2 - 3
+1 - 2 - 5
+1 - 4 - 6
+1 - 4 - 8
+3 - 2 - 3
+3 - 2 - 5
+3 - 4 - 6
+3 - 4 - 8
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="1">sleva na vek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="1">4 - 6 - 7
+4 - 6 - 9
+4 - 8 - 10
+4 - 8 - 11
+5 - 6 - 7
+5 - 6 - 9
+5 - 8 - 10
+5 - 8 - 11
+7 - 6 - 7
+7 - 6 - 9
+7 - 8 - 10
+7 - 8 - 11
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="2">kontrola podminek</combinations_data_value>
+                <combinations_data_value col="1" selected_row="2">6 - 7 - 6
+6 - 7 - 8
+6 - 9 - 10
+6 - 9 - 11
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="3">kontrola kuponu</combinations_data_value>
+                <combinations_data_value col="1" selected_row="3">2 - 3 - 2
+2 - 3 - 4
+2 - 5 - 6
+2 - 5 - 8
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="4">metoda platby</combinations_data_value>
+                <combinations_data_value col="1" selected_row="4">8 - 11 - 12
+8 - 11 - 13
+9 - 11 - 12
+9 - 11 - 13
+12 - 11 - 12
+12 - 11 - 13
+</combinations_data_value>
+                <combinations_data_value col="0" selected_row="5">aplikace</combinations_data_value>
+                <combinations_data_value col="1" selected_row="5">11 - 12 - 10
+11 - 12 - 11
+</combinations_data_value>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="7" name="3"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="6" name="2"/>
+                    <value edge_id="10" name="5"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="13" name="7"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="19" name="10"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="12" name="6"/>
+                    <value edge_id="16" name="9"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+                <test_situation_row>
+                    <value edge_id="4" name="1"/>
+                    <value edge_id="9" name="4"/>
+                    <value edge_id="15" name="8"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="22" name="12"/>
+                    <value edge_id="21" name="11"/>
+                    <value edge_id="24" name="13"/>
+                </test_situation_row>
+            </test_case>
+        </graph>
+    </graphs>
+    <crud linkage="" version="">
+        <description/>
+        <entities>
+            <entity entity_id="E0">
+                <name>E1</name>
+                <description/>
+                <attributes/>
+            </entity>
+            <entity entity_id="E1">
+                <name>E2</name>
+                <description/>
+                <attributes/>
+            </entity>
+            <entity entity_id="E2">
+                <name>E3</name>
+                <description/>
+                <attributes/>
+            </entity>
+        </entities>
+        <functions>
+            <function function_id="F0">
+                <name>1</name>
+                <description/>
+            </function>
+            <function function_id="F1">
+                <name>2</name>
+                <description/>
+            </function>
+            <function function_id="F2">
+                <name>3</name>
+                <description/>
+            </function>
+            <function function_id="F3">
+                <name>4</name>
+                <description/>
+            </function>
+            <function function_id="F4">
+                <name>5</name>
+                <description/>
+            </function>
+            <function function_id="F5">
+                <name>6</name>
+                <description/>
+            </function>
+            <function function_id="F6">
+                <name>7</name>
+                <description/>
+            </function>
+            <function function_id="F7">
+                <name>8</name>
+                <description/>
+            </function>
+            <function function_id="F8">
+                <name>9</name>
+                <description/>
+            </function>
+            <function function_id="F9">
+                <name>10</name>
+                <description/>
+            </function>
+            <function function_id="F10">
+                <name>11</name>
+                <description/>
+            </function>
+            <function function_id="F11">
+                <name>12</name>
+                <description/>
+            </function>
+            <function function_id="F12">
+                <name>13</name>
+                <description/>
+            </function>
+        </functions>
+        <actions>
+            <action entity_id_ref="E0" function_id_ref="F0">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F0">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F0">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F1">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F1">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F1">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F2">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F2">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F2">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F3">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F3">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F3">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F4">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F4">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F4">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F5">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F5">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F5">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F6">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F6">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F6">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F7">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F7">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F7">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F8">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F8">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F8">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F9">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F9">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F9">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F10">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F10">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F10">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F11">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F11">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F11">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E0" function_id_ref="F12">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E1" function_id_ref="F12">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E2" imns="false" is_set="false"/>
+                </influences>
+            </action>
+            <action entity_id_ref="E2" function_id_ref="F12">
+                <create imns="false" is_set="false">
+                    <touched_attributes/>
+                </create>
+                <read imns="false" is_set="false">
+                    <touched_attributes/>
+                </read>
+                <update imns="false" is_set="false">
+                    <touched_attributes/>
+                </update>
+                <delete imns="false" is_set="false">
+                    <touched_attributes/>
+                </delete>
+                <best_read imns="false" is_set="false"/>
+                <influences>
+                    <influence entity_id_ref="E0" imns="false" is_set="false"/>
+                    <influence entity_id_ref="E1" imns="false" is_set="false"/>
+                </influences>
+            </action>
+        </actions>
+        <test_cases>
+            <test_case is_actual="true" name="DCTest Case 1, OR">
+                <test_case_entity entity="E1"/>
+                <test_case_entity entity="E2"/>
+                <test_case_entity entity="E3"/>
+            </test_case>
+        </test_cases>
+    </crud>
+</project>

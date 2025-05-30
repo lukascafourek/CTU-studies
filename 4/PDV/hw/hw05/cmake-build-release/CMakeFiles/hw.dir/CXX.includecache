@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw05/src/sort.cpp
+sort.h
+/mnt/c/Users/lukas/Documents/PDV/hw/hw05/src/sort.h
+stdexcept
+-
+
+/mnt/c/Users/lukas/Documents/PDV/hw/hw05/src/sort.h
+vector
+-
+algorithm
+-
+iostream
+-
+

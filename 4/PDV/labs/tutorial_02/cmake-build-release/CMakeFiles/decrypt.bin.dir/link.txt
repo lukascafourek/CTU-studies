@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/gcc/13.2.0/bin/g++-13 -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/decrypt.bin.dir/decrypt.cpp.o CMakeFiles/decrypt.bin.dir/PDVCrypt.cpp.o -o decrypt.bin 
