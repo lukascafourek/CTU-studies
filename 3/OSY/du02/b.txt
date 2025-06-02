@@ -1,0 +1,18 @@
+#include <foo.h>
+#include "foo.h"
+// sdfdsfh sifdiosh #include "foo.h"
+
+printf("tato knihovna je #include <foo.h>.\n")
+
+fdgg
+
+fdggdf
+g
+#include "foo.h>
+
+#   include <foo.h>
+
+#include<foo.h>
+#INCLUDE<foo.h>
+   # include	  <stdio.h> 
+   

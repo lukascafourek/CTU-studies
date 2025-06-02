@@ -1,0 +1,13 @@
+PATH ./b.txt
+PATH ./c.txt
+sdfg
+dfgdf
+
+dfgdf
+
+
+gd
+PATH /mnt
+PATH ./link.txt
+PATH ./link2.txt
+PATH /mnt/c/Users/lukas/Dokumenty/OSY/a.txt

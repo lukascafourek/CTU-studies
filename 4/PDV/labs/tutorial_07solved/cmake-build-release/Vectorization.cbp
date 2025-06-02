@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Vectorization"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="popcnt">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/popcnt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 popcnt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="popcnt/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/popcnt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 popcnt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lzcnt">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/lzcnt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 lzcnt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lzcnt/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/lzcnt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 lzcnt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condswap">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/condswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 condswap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condswap/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/condswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 condswap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normdist">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/normdist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 normdist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normdist/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/normdist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 normdist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="autovec">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/autovec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 autovec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="autovec/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/autovec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 autovec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/autovec.cpp">
+			<Option target="autovec"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/cond.cpp">
+			<Option target="condswap"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/lzcnt.cpp">
+			<Option target="lzcnt"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/normdist.cpp">
+			<Option target="normdist"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/popcnt.cpp">
+			<Option target="popcnt"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_07solved/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,180 @@
+
+program-x86_64:     file format elf64-x86-64
+
+
+Disassembly of section my_text:
+
+00000000000007a2 <subroutine_fnc>:
+#include <fcntl.h>
+
+DATA_ATTR char out_file_name[] = "data";
+
+FUNC_ATTR int subroutine_fnc(int fd, int numeric_base)
+{
+ 7a2:	55                   	push   %rbp
+ 7a3:	48 89 e5             	mov    %rsp,%rbp
+ 7a6:	53                   	push   %rbx
+ 7a7:	89 7d e4             	mov    %edi,-0x1c(%rbp)
+ 7aa:	89 75 e0             	mov    %esi,-0x20(%rbp)
+  int val = 0;
+ 7ad:	c7 45 f4 00 00 00 00 	movl   $0x0,-0xc(%rbp)
+  int res;
+  char ch;
+  
+  do {
+
+    res = INTERNAL_SYSCALL(read, err_res, 3, fd, &ch, 1);
+ 7b4:	8b 45 e4             	mov    -0x1c(%rbp),%eax
+ 7b7:	48 8d 75 ef          	lea    -0x11(%rbp),%rsi
+ 7bb:	ba 01 00 00 00       	mov    $0x1,%edx
+ 7c0:	89 c7                	mov    %eax,%edi
+ 7c2:	b8 00 00 00 00       	mov    $0x0,%eax
+ 7c7:	0f 05                	syscall 
+ 7c9:	48 89 c3             	mov    %rax,%rbx
+ 7cc:	48 89 d8             	mov    %rbx,%rax
+ 7cf:	89 45 f0             	mov    %eax,-0x10(%rbp)
+    if (res != 1)
+ 7d2:	83 7d f0 01          	cmpl   $0x1,-0x10(%rbp)
+ 7d6:	74 0e                	je     7e6 <subroutine_fnc+0x44>
+      INTERNAL_SYSCALL(exit, err_res, 1, 1);
+ 7d8:	b8 01 00 00 00       	mov    $0x1,%eax
+ 7dd:	89 c7                	mov    %eax,%edi
+ 7df:	b8 3c 00 00 00       	mov    $0x3c,%eax
+ 7e4:	0f 05                	syscall 
+
+    if((ch<'0') || (ch>='0'+numeric_base))
+ 7e6:	0f b6 45 ef          	movzbl -0x11(%rbp),%eax
+ 7ea:	3c 2f                	cmp    $0x2f,%al
+ 7ec:	7e 2a                	jle    818 <subroutine_fnc+0x76>
+ 7ee:	0f b6 45 ef          	movzbl -0x11(%rbp),%eax
+ 7f2:	0f be c0             	movsbl %al,%eax
+ 7f5:	8b 55 e0             	mov    -0x20(%rbp),%edx
+ 7f8:	83 c2 30             	add    $0x30,%edx
+ 7fb:	39 d0                	cmp    %edx,%eax
+ 7fd:	7d 19                	jge    818 <subroutine_fnc+0x76>
+      break;
+
+    val *= numeric_base;
+ 7ff:	8b 45 f4             	mov    -0xc(%rbp),%eax
+ 802:	0f af 45 e0          	imul   -0x20(%rbp),%eax
+ 806:	89 45 f4             	mov    %eax,-0xc(%rbp)
+    val += ch - '0';
+ 809:	0f b6 45 ef          	movzbl -0x11(%rbp),%eax
+ 80d:	0f be c0             	movsbl %al,%eax
+ 810:	83 e8 30             	sub    $0x30,%eax
+ 813:	01 45 f4             	add    %eax,-0xc(%rbp)
+    res = INTERNAL_SYSCALL(read, err_res, 3, fd, &ch, 1);
+ 816:	eb 9c                	jmp    7b4 <subroutine_fnc+0x12>
+  } while(1);
+
+  return val;
+ 818:	8b 45 f4             	mov    -0xc(%rbp),%eax
+}
+ 81b:	5b                   	pop    %rbx
+ 81c:	5d                   	pop    %rbp
+ 81d:	c3                   	retq   
+
+000000000000081e <toplevel_fnc>:
+
+
+FUNC_ATTR int toplevel_fnc(void)
+{
+ 81e:	55                   	push   %rbp
+ 81f:	48 89 e5             	mov    %rsp,%rbp
+ 822:	53                   	push   %rbx
+ 823:	48 83 ec 20          	sub    $0x20,%rsp
+  int ret_val;
+  int err_res;
+  int count;
+  int result;
+  char ch = 'A';
+ 827:	c6 45 e7 41          	movb   $0x41,-0x19(%rbp)
+  int fd;
+
+  count = subroutine_fnc(0, 10);
+ 82b:	be 0a 00 00 00       	mov    $0xa,%esi
+ 830:	bf 00 00 00 00       	mov    $0x0,%edi
+ 835:	e8 68 ff ff ff       	callq  7a2 <subroutine_fnc>
+ 83a:	89 45 f4             	mov    %eax,-0xc(%rbp)
+
+  result = count;
+ 83d:	8b 45 f4             	mov    -0xc(%rbp),%eax
+ 840:	89 45 f0             	mov    %eax,-0x10(%rbp)
+
+
+  fd = INTERNAL_SYSCALL(open, err_res, 3, out_file_name, O_RDWR|O_CREAT|O_TRUNC, S_IRUSR|S_IWUSR);
+ 843:	48 8d 05 ee 07 20 00 	lea    0x2007ee(%rip),%rax        # 201038 <out_file_name>
+ 84a:	be 42 02 00 00       	mov    $0x242,%esi
+ 84f:	ba 80 01 00 00       	mov    $0x180,%edx
+ 854:	48 89 c7             	mov    %rax,%rdi
+ 857:	b8 02 00 00 00       	mov    $0x2,%eax
+ 85c:	0f 05                	syscall 
+ 85e:	48 89 c3             	mov    %rax,%rbx
+ 861:	48 89 d8             	mov    %rbx,%rax
+ 864:	89 45 ec             	mov    %eax,-0x14(%rbp)
+  if(fd<0)
+ 867:	83 7d ec 00          	cmpl   $0x0,-0x14(%rbp)
+ 86b:	79 42                	jns    8af <toplevel_fnc+0x91>
+    INTERNAL_SYSCALL(exit, err_res, 1, 1);
+ 86d:	b8 01 00 00 00       	mov    $0x1,%eax
+ 872:	89 c7                	mov    %eax,%edi
+ 874:	b8 3c 00 00 00       	mov    $0x3c,%eax
+ 879:	0f 05                	syscall 
+
+  while(count--) {
+ 87b:	eb 32                	jmp    8af <toplevel_fnc+0x91>
+    ret_val = INTERNAL_SYSCALL(write, err_res, 3, fd, &ch, 1);
+ 87d:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 880:	48 8d 75 e7          	lea    -0x19(%rbp),%rsi
+ 884:	ba 01 00 00 00       	mov    $0x1,%edx
+ 889:	89 c7                	mov    %eax,%edi
+ 88b:	b8 01 00 00 00       	mov    $0x1,%eax
+ 890:	0f 05                	syscall 
+ 892:	48 89 c3             	mov    %rax,%rbx
+ 895:	48 89 d8             	mov    %rbx,%rax
+ 898:	89 45 e8             	mov    %eax,-0x18(%rbp)
+    if(ret_val<0)
+ 89b:	83 7d e8 00          	cmpl   $0x0,-0x18(%rbp)
+ 89f:	79 0e                	jns    8af <toplevel_fnc+0x91>
+      INTERNAL_SYSCALL(exit, err_res, 1, 1);
+ 8a1:	b8 01 00 00 00       	mov    $0x1,%eax
+ 8a6:	89 c7                	mov    %eax,%edi
+ 8a8:	b8 3c 00 00 00       	mov    $0x3c,%eax
+ 8ad:	0f 05                	syscall 
+  while(count--) {
+ 8af:	8b 45 f4             	mov    -0xc(%rbp),%eax
+ 8b2:	8d 50 ff             	lea    -0x1(%rax),%edx
+ 8b5:	89 55 f4             	mov    %edx,-0xc(%rbp)
+ 8b8:	85 c0                	test   %eax,%eax
+ 8ba:	75 c1                	jne    87d <toplevel_fnc+0x5f>
+  }
+
+  ret_val = INTERNAL_SYSCALL(close, err_res, 1, fd);
+ 8bc:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 8bf:	89 c7                	mov    %eax,%edi
+ 8c1:	b8 03 00 00 00       	mov    $0x3,%eax
+ 8c6:	0f 05                	syscall 
+ 8c8:	48 89 c3             	mov    %rax,%rbx
+ 8cb:	48 89 d8             	mov    %rbx,%rax
+ 8ce:	89 45 e8             	mov    %eax,-0x18(%rbp)
+  if(ret_val<0)
+ 8d1:	83 7d e8 00          	cmpl   $0x0,-0x18(%rbp)
+ 8d5:	79 0e                	jns    8e5 <toplevel_fnc+0xc7>
+    INTERNAL_SYSCALL(exit, err_res, 1, 1);
+ 8d7:	b8 01 00 00 00       	mov    $0x1,%eax
+ 8dc:	89 c7                	mov    %eax,%edi
+ 8de:	b8 3c 00 00 00       	mov    $0x3c,%eax
+ 8e3:	0f 05                	syscall 
+
+  return result;
+ 8e5:	8b 45 f0             	mov    -0x10(%rbp),%eax
+}
+ 8e8:	48 83 c4 20          	add    $0x20,%rsp
+ 8ec:	5b                   	pop    %rbx
+ 8ed:	5d                   	pop    %rbp
+ 8ee:	c3                   	retq   
+
+program-x86_64:     file format elf64-x86-64
+
+Contents of section my_data:
+ 201038 64617461 00                          data.           

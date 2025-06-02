@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/condswap.dir/cond.cpp.o  -o condswap 

@@ -1,0 +1,81 @@
+
+program code
+
+
+build/program-mips:     file format elf32-tradbigmips
+
+
+Disassembly of section my_text:
+
+00404f10 <subroutine_fnc>:
+  404f10:	24020020 	li	v0,32
+  404f14:	10a20009 	beq	a1,v0,404f3c <subroutine_fnc+0x2c>
+  404f18:	24020009 	li	v0,9
+  404f1c:	10a20007 	beq	a1,v0,404f3c <subroutine_fnc+0x2c>
+  404f20:	3c020041 	lui	v0,0x41
+  404f24:	8c426160 	lw	v0,24928(v0)
+  404f28:	00000000 	nop
+  404f2c:	10450003 	beq	v0,a1,404f3c <subroutine_fnc+0x2c>
+  404f30:	00a01025 	move	v0,a1
+  404f34:	03e00008 	jr	ra
+  404f38:	ac800000 	sw	zero,0(a0)
+  404f3c:	8c820000 	lw	v0,0(a0)
+  404f40:	00000000 	nop
+  404f44:	24430001 	addiu	v1,v0,1
+  404f48:	10400003 	beqz	v0,404f58 <subroutine_fnc+0x48>
+  404f4c:	ac830000 	sw	v1,0(a0)
+  404f50:	03e00008 	jr	ra
+  404f54:	00001025 	move	v0,zero
+  404f58:	03e00008 	jr	ra
+  404f5c:	00a01025 	move	v0,a1
+
+00404f60 <toplevel_fnc>:
+  404f60:	27bdffd0 	addiu	sp,sp,-48
+  404f64:	afbf002c 	sw	ra,44(sp)
+  404f68:	afb20028 	sw	s2,40(sp)
+  404f6c:	afb10024 	sw	s1,36(sp)
+  404f70:	afb00020 	sw	s0,32(sp)
+  404f74:	afa00018 	sw	zero,24(sp)
+  404f78:	00008825 	move	s1,zero
+  404f7c:	27b0001c 	addiu	s0,sp,28
+  404f80:	10000002 	b	404f8c <toplevel_fnc+0x2c>
+  404f84:	27b20018 	addiu	s2,sp,24
+  404f88:	26310001 	addiu	s1,s1,1
+  404f8c:	00002025 	move	a0,zero
+  404f90:	02002825 	move	a1,s0
+  404f94:	24060001 	li	a2,1
+  404f98:	24020fa3 	li	v0,4003
+  404f9c:	0000000c 	syscall
+  404fa0:	14e00011 	bnez	a3,404fe8 <toplevel_fnc+0x88>
+  404fa4:	24030001 	li	v1,1
+  404fa8:	1443000f 	bne	v0,v1,404fe8 <toplevel_fnc+0x88>
+  404fac:	02402025 	move	a0,s2
+  404fb0:	83a5001c 	lb	a1,28(sp)
+  404fb4:	0c1013c4 	jal	404f10 <subroutine_fnc>
+  404fb8:	00000000 	nop
+  404fbc:	00021600 	sll	v0,v0,0x18
+  404fc0:	00021603 	sra	v0,v0,0x18
+  404fc4:	1040fff0 	beqz	v0,404f88 <toplevel_fnc+0x28>
+  404fc8:	a3a2001c 	sb	v0,28(sp)
+  404fcc:	24040001 	li	a0,1
+  404fd0:	02002825 	move	a1,s0
+  404fd4:	24060001 	li	a2,1
+  404fd8:	24020fa4 	li	v0,4004
+  404fdc:	0000000c 	syscall
+  404fe0:	1000ffeb 	b	404f90 <toplevel_fnc+0x30>
+  404fe4:	00002025 	move	a0,zero
+  404fe8:	02201025 	move	v0,s1
+  404fec:	8fbf002c 	lw	ra,44(sp)
+  404ff0:	8fb20028 	lw	s2,40(sp)
+  404ff4:	8fb10024 	lw	s1,36(sp)
+  404ff8:	8fb00020 	lw	s0,32(sp)
+  404ffc:	03e00008 	jr	ra
+  405000:	27bd0030 	addiu	sp,sp,48
+
+program data
+
+
+build/program-mips:     file format elf32-tradbigmips
+
+Contents of section my_data:
+ 416160 00000000                             ....            

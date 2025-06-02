@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/_prefixsum/prefixsum.cpp
+prefixsum.h
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/_prefixsum/prefixsum.h
+string
+-
+vector
+-
+chrono
+-
+
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/_prefixsum/prefixsum.h
+cstdlib
+-
+chrono
+-
+iostream
+-
+omp.h
+-
+vector
+-
+cmath
+-
+

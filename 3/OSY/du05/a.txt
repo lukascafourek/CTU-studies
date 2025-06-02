@@ -1,0 +1,7 @@
+make A
+make A
+add nuzky
+add nuzky
+start Nora nuzky
+end Nora
+start Nikol nuzky

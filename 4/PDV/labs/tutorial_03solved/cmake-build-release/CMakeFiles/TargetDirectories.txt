@@ -1,0 +1,4 @@
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_03solved/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_03solved/cmake-build-release/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_03solved/cmake-build-release/CMakeFiles/test_openmp.bin.dir
+/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_03solved/cmake-build-release/CMakeFiles/main.bin.dir

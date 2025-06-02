@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sorting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prefixsum">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/prefixsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 prefixsum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prefixsum/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/prefixsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 prefixsum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sorting">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 sorting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sorting/fast">
+				<Option output="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 sorting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/_prefixsum/prefixsum.cpp">
+			<Option target="prefixsum"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/_prefixsum/prefixsum.h">
+			<Option target="prefixsum"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/sorting.cpp">
+			<Option target="sorting"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lukas/Documents/PDV/labs/tutorial_06solved/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/lzcnt.dir/lzcnt.cpp.o  -o lzcnt 
