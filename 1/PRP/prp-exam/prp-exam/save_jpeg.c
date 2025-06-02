@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include </opt/homebrew/Cellar/jpeg/9e/include/jpeglib.h>
+#include <jpeglib.h>
 
 #include "save_jpeg.h"
 #include "exam_utils.h"

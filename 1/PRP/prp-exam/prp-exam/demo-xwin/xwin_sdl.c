@@ -4,8 +4,8 @@
  * Author:    Jan Faigl
  */
 
-#include </opt/homebrew/Cellar/sdl2/2.26.2/include/SDL2/SDL.h>
-#include </opt/homebrew/Cellar/sdl2_image/2.6.2_1/include/SDL2/SDL_image.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 #include "xwin_sdl.h"
 

@@ -37,12 +37,12 @@ int main(int argc, char *argv[]) {
 }
 int read_input(int *width, int *height, int *fence) {   // this reads input
   int ret = EXIT_SUCCESS, r, s;
-  r = scanf("%d%d", &*width, &*height);
+  r = scanf("%d%d", width, height);
   if (r != 2) {
     return ERROR_INPUT;
   }
   if (*width == *height) {
-    s = scanf(" %d", &*fence);
+    s = scanf(" %d", fence);
   }
   else {
     s = 1;

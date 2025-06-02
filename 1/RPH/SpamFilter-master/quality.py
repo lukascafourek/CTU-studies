@@ -25,4 +25,4 @@ def compute_quality_for_corpus(corpus_dir):
 
 if __name__ == "__main__":
     """needs  added"""
-    compute_quality_for_corpus(os.getcwd() + '/spam-data-12-s75-h25/1')
+    compute_quality_for_corpus(os.getcwd() + '\\spam-data-12-s75-h25\\1')

@@ -34,13 +34,13 @@ uint64_t findn_sequential(uint64_t criteria) {
 
 uint64_t findn_parallel(uint64_t criteria) {
     std::atomic<uint64_t> next_n = 1;
-    std::atomic<uint64_t> ret{};
+    std::atomic<uint64_t> ret{0};
     #pragma omp parallel
     while(true) {
         #pragma omp cancellation point parallel
         auto n = next_n++;
         if(collatz(n) >= criteria) {
-            ret = n;
+            ret += n;
             #pragma omp cancel parallel
             break;
         }

@@ -1,11 +1,11 @@
-CC = arm-unknown-linux-gnueabihf-gcc
-CXX = arm-unknown-linux-gnueabihf-g++
+CC = arm-linux-gnueabihf-gcc
+CXX = arm-linux-gnueabihf-g++
 
 CPPFLAGS = -I .
-CFLAGS =-g -std=gnu99 -O1 -Wall #-I/usr/local/arm-unknown-gnueabihf/sysroot/usr/include
+CFLAGS =-g -std=gnu99 -O1 -Wall
 CXXFLAGS = -g -std=gnu++11 -O1 -Wall
-#LDFLAGS += -L/usr/local/arm-unknown-gnueabihf/sysroot/usr/lib
-#LDFLAGS += -static
+#LDFLAGS +=
+LDFLAGS += -static
 LDLIBS += -lrt -lpthread
 #LDLIBS += -lm
 

@@ -14,94 +14,48 @@ def generate_data(n_cols, n_rows):
         arr.append(n_col)
     return arr
 
-def is_inside(r1, c1, r2, c2, r3, c3, r4, c4, r5, c5, r6, c6):
-    if 0 <= r1 < 8 or 0 <= c1 < 8 or 0 <= r2 < 8 or 0 <= c2 < 8 or \
-            0 <= r3 < 8 or 0 <= c3 < 8 or 0 <= r4 < 8 or 0 <= c4 < 8 or \
-            0 <= r5 < 8 or 0 <= c5 < 8 or 0 <= r6 < 8 or 0 <= c6 < 8:
-        return True
-    else:
-        return False
+def is_inside(r, c, data):
+    return (r>=0) and (c>=0) and (r<len(data)) and (c<len(data[r]))
 
-def line_size(r, c, data):
-    count = 1
-    c1 = c + 1
-    c2 = c - 1
-    r1 = r2 = r3 = r4 = r5 = r6 = r
-    c3 = c4 = c5 = c6 = c
-    while is_inside(r1, c1, r2, c2, r3, c3, r4, c4, r5, c5, r6, c6):
-        if 0 <= c1 < 8 and data[r][c] == data[r][c1]:
-            count += 1
-            c1 += 1
-        elif 0 <= c2 < 8 and data[r][c] == data[r][c2]:
-            count += 1
-            c2 -= 1
+def search_dir(dir, r, c, data):
+    len = 0
+    r1 = r + dir[0]
+    c1 = c + dir[1]
+    #print(r1, c1)
+    while (is_inside(r1, c1, data)):
+        if data[r1][c1] == data[r][c]:
+            len += 1
+            r1 += dir[0]
+            c1 += dir[1]
+            #print(r1, c1, ": ", len)
         else:
             break
-    return count
+    return len
+
+def line_size(r , c, data):
+    dirs = [(0,1), (0,-1)]
+    l_size = 1
+    for dir in dirs:
+        l_size += search_dir(dir, r, c, data)
+    #print(l_size)
+    return l_size
 
 def line_column_size(r, c, data):
-    count = 1
-    c1 = c + 1
-    c2 = c - 1
-    r1 = r + 1
-    r2 = r - 1
-    r3 = r4 = r5 = r6 = r
-    c3 = c4 = c5 = c6 = c
-    while is_inside(r1, c1, r2, c2, r3, c3, r4, c4, r5, c5, r6, c6):
-        if 0 <= c1 < 8 and data[r][c] == data[r][c1]:
-            count += 1
-            c1 += 1
-        elif 0 <= c2 < 8 and data[r][c] == data[r][c2]:
-            count += 1
-            c2 -= 1
-        elif 0 <= r1 < 8 and data[r][c] == data[r1][c]:
-            count += 1
-            r1 += 1
-        elif 0 <= r2 < 8 and data[r][c] == data[r2][c]:
-            count += 1
-            r2 -= 1
-        else:
-            break
-    return count
+    dirs = [(0,1), (0,-1), (1,0), (-1,0)]
+    l_c_size = 1
+    for dir in dirs:
+        l_c_size += search_dir(dir, r, c, data)
+    #print(l_c_size)
+    return l_c_size
 
 def region_size(r, c, data):
-    count = 1
-    c1 = c3 = c5 = c + 1
-    c2 = c4 = c6 = c - 1
-    r1 = r3 = r5 = r + 1
-    r2 = r4 = r6 = r - 1
-    while is_inside(r1, c1, r2, c2, r3, c3, r4, c4, r5, c5, r6, c6):
-        if 0 <= c1 < 8 and data[r][c] == data[r][c1]:
-            count += 1
-            c1 += 1
-        elif 0 <= c2 < 8 and data[r][c] == data[r][c2]:
-            count += 1
-            c2 -= 1
-        elif 0 <= r1 < 8 and data[r][c] == data[r1][c]:
-            count += 1
-            r1 += 1
-        elif 0 <= r2 < 8 and data[r][c] == data[r2][c]:
-            count += 1
-            r2 -= 1
-        elif 0 <= r3 < 8 and 0 <= c3 < 8 and data[r][c] == data[r3][c3]:
-            count += 1
-            r3 += 1
-            c3 += 1
-        elif 0 <= r4 < 8 and 0 <= c4 < 8 and data[r][c] == data[r4][c4]:
-            count += 1
-            r4 -= 1
-            c4 -= 1
-        elif 0 <= r5 < 8 and 0 <= c6 < 8 and data[r][c] == data[r5][c6]:
-            count += 1
-            r5 += 1
-            c6 -= 1
-        elif 0 <= r6 < 8 and 0 <= c5 < 8 and data[r][c] == data[r6][c5]:
-            count += 1
-            r6 -= 1
-            c5 += 1
-        else:
-            break
-    return count
+    dirs = [(0,1), (0,-1), (1,0), (-1,0), (1,1), (1,-1), (-1,1), (-1,-1)]
+    reg_size = 1
+    for dir in dirs:
+        reg_size += search_dir(dir, r, c, data)
+    #print(reg_size)
+    return(reg_size)
+
 
 if __name__ == '__main__':
     data = generate_data(8, 8)

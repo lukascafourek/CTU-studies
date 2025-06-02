@@ -1,4 +1,4 @@
-module Ancestor (findPath, commonAncestor, Tree(..)) where
+module Task4 (findPath, commonAncestor, Tree(..)) where
 
 data Tree a = Leaf a
             | Node a (Tree a) (Tree a) deriving (Eq,Show)

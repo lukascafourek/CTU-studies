@@ -14,7 +14,7 @@
 
 #define _POSIX_C_SOURCE 200112L
 
-//#define HX8357_B    // odkomentovat jeden z define pro prislusny displej doma pro nasi desku pro spravnou inicializaci displeje
+#define HX8357_B    // odkomentovat jeden z define pro prislusny displej doma pro nasi desku pro spravnou inicializaci displeje
 //#define ILI9481
 
 #include <stdint.h>

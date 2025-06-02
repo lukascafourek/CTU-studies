@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/src/main.cpp" "/mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/cmake-build-release/CMakeFiles/threadpool.dir/src/main.cpp.o"
+  "/mnt/c/Users/lukas/Documents/PDV/hw/hw01/src/main.cpp" "/mnt/c/Users/lukas/Documents/PDV/hw/hw01/cmake-build-release/CMakeFiles/threadpool.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

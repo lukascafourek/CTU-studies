@@ -41,7 +41,7 @@ void load_txt(const char *fname, graph_t *graph) {
       }
       edge_t *edge = graph->edges + graph->count;
       while (graph->count < graph->capacity) {
-         int r = fscanf(f, "%d %d %d\n", &(edge->from), &(edge->to), &(edge->cost));
+         int r = fscanf(f, "%d %d %d\n", &edge->from, &edge->to, &edge->cost);
          if (r == 3) {
             graph->count += 1;
             edge += 1;

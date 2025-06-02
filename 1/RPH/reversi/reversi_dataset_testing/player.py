@@ -12,7 +12,7 @@ class MyPlayer:
     def move(self, board):
         valid_moves = []
         counts = []
-        dirs = [(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1)]
+        dirs = [(0,1), (0,-1), (1,0), (-1,0), (1,1), (1,-1), (-1,1), (-1,-1)]
         for r in range(len(board)):
             for c in range(len(board[r])):
                 if board[r][c] == -1:
@@ -22,7 +22,7 @@ class MyPlayer:
             return valid_moves[index]
 
     def is_inside(self, r, c, board):
-        return (r >= 0) and (c >= 0) and (r < len(board)) and (c < len(board[r]))
+        return (r>=0) and (c>=0) and (r<len(board)) and (c<len(board[r]))
 
     def search_dir(self, dir, r, c, board, counts):
         count = 1
@@ -66,8 +66,8 @@ if __name__ == "__main__":
         [-1, -1, -1, -1, -1, -1, -1, -1],
         [-1, -1, -1, -1, -1, -1, -1, -1],
         [-1, -1, -1, -1, -1, -1, -1, -1],
-        [-1, -1, -1, 0, 1, -1, -1, -1],
-        [-1, -1, -1, 1, 0, -1, -1, -1],
+        [-1, -1, -1,  0,  1, -1, -1, -1],
+        [-1, -1, -1,  1,  0, -1, -1, -1],
         [-1, -1, -1, -1, -1, -1, -1, -1],
         [-1, -1, -1, -1, -1, -1, -1, -1],
         [-1, -1, -1, -1, -1, -1, -1, -1]]

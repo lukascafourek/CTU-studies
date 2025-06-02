@@ -79,7 +79,7 @@ int main() {
 //    auto d = hanoi::domain<3, 1, 4>();
 
     // Vytvorit domenu "splnovani booleovskych funkci" muzete vytvorit nasledovne:
-    auto d = sat::domain<30,7,3,1,false>();
+    auto d = sat::domain<30,7,3,1,true>();
     // Tato domena pak ma:
     //   - 30 booleovskych promennych
     //   - 7 termu (ktere jsou spojeny disjunkci)

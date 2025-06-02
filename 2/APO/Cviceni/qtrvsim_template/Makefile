@@ -3,7 +3,7 @@ ARCH=riscv64-unknown-elf
 SOURCES = change_me.S
 TARGET_EXE = change_me
 
-CC=$(ARCH)-gcc
+CC=$(ARCH)-gcc.exe
 CXX=$(ARCH)-g++
 AS=$(ARCH)-as
 LD=$(ARCH)-ld

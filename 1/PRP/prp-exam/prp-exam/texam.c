@@ -48,6 +48,9 @@ int main(int argc, char *argv[])
       fprintf(stderr, "ERROR: processing file '%s'\n", fcmds);
       ret = 102;
    }
+   if (fd) {
+      fclose(fd);
+   }
 
    //4th save output
    if (!ret && fout) {

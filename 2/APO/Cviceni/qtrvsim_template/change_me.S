@@ -21,7 +21,7 @@ _start:
 	auipc s0, 0x1
 	nop
 	nop
-	addi s0, s0, 0x3e8
+	addi s0, s0, 0x3e8		// 0x400 - 0x18 (1024 - 24) - 24 protoze je mezi 14. a 21. radkem 6 instrukci, tzn. 6 * 4 (velikost .word) = 24
 	addi a1, zero, 1
 
 outerloop:

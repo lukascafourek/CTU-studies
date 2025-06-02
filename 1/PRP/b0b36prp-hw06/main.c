@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+
 #define EXIT_SUCCESS 0
 #define ERROR_INPUT 100
- 
+
 typedef struct matrix {
   int rows;
   int cols;
   int* vals;
 } matrix;
- 
+
 matrix *allocate_matrix(int rows, int cols);
 void deallocate_matrix(matrix **m);
 matrix *read_matrix(void);
@@ -17,7 +17,7 @@ void print_matrix(const matrix *const m);
 char read_operator(int *ret);
 matrix *sum(const matrix *const m1, const matrix *const m2, int sign);
 matrix *multiplicate(const matrix *const m1, const matrix *const m2);
- 
+
 int main(int argc, char *argv[]) {
   int ret = EXIT_SUCCESS;
   matrix *m1 = read_matrix();

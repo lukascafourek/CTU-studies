@@ -8,13 +8,12 @@ function d = erraff(A)
 % OUTPUT:
 % d: m-by-1 matrix
 %
-A_centered = A - mean(A, 2);
-
-[~, S, ~] = svd(A_centered, 'econ');
-sigma = diag(S).^2;
-d = flipud(cumsum(flipud(sigma)));
-
-% [~, eig_values] = eig(A_centered * A_centered');
+b0 = mean(A, 2);
+A = A - b0;
+[~, S, ~] = svd(A, 'econ');
+lambda = diag(S).^2;
+% [~, eig_values] = eig(A * A');
 % lambda = sort(diag(eig_values), 'descend');
-% d = flipud(cumsum(flipud(lambda)));
+total_variance = sum(lambda);
+d = total_variance - cumsum(lambda);
 return

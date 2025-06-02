@@ -9,7 +9,7 @@ class MyFilter:
     def train(self, train_corpus_dir):
         spam_words = self.spam_words
         ok_words = set()
-        with open(train_corpus_dir + "/!truth.txt", 'rt', encoding='utf-8') as f:
+        with open(train_corpus_dir + "\\!truth.txt", 'rt', encoding='utf-8') as f:
             text = f.read().split()
             for i in range(0, len(text), 2):
                 email = text[i]
@@ -27,7 +27,7 @@ class MyFilter:
         self.spam_words = spam_words
 
     def load_words(self, train_corpus_dir, email, word_set):
-        with open(train_corpus_dir + "/" + email, "rt", encoding='utf-8') as f:
+        with open(train_corpus_dir + "\\" + email, "rt", encoding='utf-8') as f:
             word_list = f.read().split(sep=' ')
             for word in word_list:
                 word_set.add(word)
@@ -49,7 +49,7 @@ class MyFilter:
 
     def test(self, test_corpus_dir):
         emails = os.listdir(test_corpus_dir)
-        with open(test_corpus_dir + "/!prediction.txt", 'wt', encoding='utf-8') as f:
+        with open(test_corpus_dir + "\\!prediction.txt", 'wt', encoding='utf-8') as f:
             for email in emails:
                 if not email.startswith("!"):
                     result = self.skim_mail(test_corpus_dir, email)
@@ -63,7 +63,7 @@ class MyFilter:
              "<table>", "<html>", "<body>", "href", "<br>", "<p>"]
         spam_words = self.spam_words
 
-        with open(test_corpus_dir + "/" + email, "rt", encoding='utf-8') as f:
+        with open(test_corpus_dir + "\\" + email, "rt", encoding='utf-8') as f:
             text = f.read()
             words = text.split()
             keyword_counter = 0
@@ -87,5 +87,5 @@ class MyFilter:
 
 if __name__ == "__main__":
     filter = MyFilter()
-    filter.train(os.getcwd() + "/spam-data-12-s75-h25/2")
-    filter.test(os.getcwd() + "/spam-data-12-s75-h25/1")
+    filter.train(os.getcwd() + "\\spam-data-12-s75-h25\\2")
+    filter.test(os.getcwd() + "\\spam-data-12-s75-h25\\1")

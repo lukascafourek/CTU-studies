@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <chrono>
 #include <string>
-#include <execution>
+//#include <execution>
 #include "generators.h"
 
 #include "_mergesort/mergesort.h"

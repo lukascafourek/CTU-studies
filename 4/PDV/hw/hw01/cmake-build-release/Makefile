@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool
+CMAKE_SOURCE_DIR = /mnt/c/Users/lukas/Documents/PDV/hw/hw01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/cmake-build-release
+CMAKE_BINARY_DIR = /mnt/c/Users/lukas/Documents/PDV/hw/hw01/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/cmake-build-release/CMakeFiles /mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lukas/Documents/PDV/hw/hw01/cmake-build-release/CMakeFiles /mnt/c/Users/lukas/Documents/PDV/hw/hw01/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lukas/Documents/PDV/hw/pdv-01thrpool/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lukas/Documents/PDV/hw/hw01/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
