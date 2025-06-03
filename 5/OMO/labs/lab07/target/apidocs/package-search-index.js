@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cz.cvut.fel.omo.cv7"},{"l":"cz.cvut.fel.omo.cv7.ab"},{"l":"cz.cvut.fel.omo.cv7.uni"}];updateSearchResults();
